@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/sztuka_portfolio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/landing_page_N.Sz" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/udemy_React_Redux/bookstore" vcs="Git" />
   </component>
 </project>
