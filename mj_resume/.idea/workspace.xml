@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b017536-e366-4c9a-af06-a68bfcee738b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Three.js/manual/js/three.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../landing_page_on_css_grid/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../landing_page_on_css_grid/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mj_resume.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/gridsome.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/gridsome.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/src/components/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/src/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/src/layouts/Default.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/src/layouts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/src/pages/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/src/pages/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/src/pages/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/src/templates/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/static/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mj_resume/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/portfolio_react/src/sass/_font.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/portfolio_react/src/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS_GRID/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CSS_GRID/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../landing_page_N.Sz" beforeDir="false" afterPath="$PROJECT_DIR$/../landing_page_N.Sz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../udemy_React_Redux/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy_React_Redux/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../udemy_React_Redux/bookstore" beforeDir="false" afterPath="$PROJECT_DIR$/../udemy_React_Redux/bookstore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="testIT" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jO9oj3tatLGG7OHnU70VG4QN6q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/vue-cdn/node_modules/vue" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b017536-e366-4c9a-af06-a68bfcee738b" name="Default Changelist" comment="" />
+      <created>1603664447439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603664447439</updated>
+      <workItem from="1603664448559" duration="1035000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603665472690">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603665472690" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603665508339">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1603665508339" />
+    <state x="541" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603665380294">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="541" y="314" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603665380294" />
+  </component>
+</project>
