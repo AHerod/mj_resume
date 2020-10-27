@@ -1,0 +1,70 @@
+.bg-primary {
+    background-color: $primary !important;
+}
+
+.text-primary {
+    color: $primary !important;
+}
+
+a {
+    color: $primary;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: darken($primary, 15%);
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 54px;
+    color: #868e96;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 0;
+        padding-left: 17rem;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.5rem;
+
+    @media (min-width: 768px) {
+        font-size: 6rem;
+        line-height: 5.5rem;
+    }
+}
+
+h2 {
+    font-size: 1.5rem;
+
+    @media (min-width: 768px) {
+        font-size: 3.5rem;
+    }
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+sup {
+    padding-right: 2px;
+}
