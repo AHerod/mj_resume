@@ -1,33 +1,71 @@
 <template>
-  <Layout>
-
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-
-  </Layout>
+    <Layout>
+        <div class="container-fluid p-0">
+            <About/>
+            <hr class="m-0">
+        </div>
+    </Layout>
 </template>
 
 <script>
+import About from "../components/About";
+
 export default {
-  metaInfo: {
-    title: 'Hello, world!'
-  }
-}
+    components: {
+        About
+    },
+    metaInfo: {
+        title: "Martyna Jońca -  Marketing Specialist"
+    }
+};
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
+<style lang="scss">
+.subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    @media (min-width: 768px) {
+        font-size: 1.5rem;
+    }
+}
+
+.fa-ul > li {
+    display: flex;
+    align-items: center;
+}
+
+.dev-icons {
+    font-size: 3rem;
+}
+
+.dev-icons .list-inline-item svg:hover {
+    color: var(--primary);
+}
+
+section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+    min-width: none;
+}
+
+@media (min-width: 768px) {
+    section.resume-section {
+        min-height: 100vh;
+    }
+    section.resume-section .resume-item .resume-date {
+        min-width: 18rem;
+    }
+}
+
+@media (min-width: 992px) {
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
 }
 </style>

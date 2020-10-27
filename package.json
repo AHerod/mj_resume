@@ -7,6 +7,22 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.3",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-netlify-cms": "^1.0.9",
+    "netlify-cms": "^2.10.66",
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-brands-svg-icons": "^5.13.1",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/vue-fontawesome": "0.1.10",
+    "@gridsome/plugin-google-analytics": "^0.1.1",
+    "@gridsome/plugin-sitemap": "^0.4.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.15.0",
+    "node-sass": "^4.11.0",
+    "npm": "^6.14.7",
+    "sass-loader": "^7.3.1",
+    "vue-scrollto": "^2.18.1"
   }
 }
