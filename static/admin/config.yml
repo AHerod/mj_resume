@@ -12,13 +12,24 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
-- name: "personal" # Used in routes, e.g., /admin/collections/content
-  label: "Personal" # Used in the UI
-  folder: "content/personal" # The path to the folder where the documents are stored
-  create: true # Allow users to create new documents in this collection
-  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  fields: # The fields for each document, usually in front matter
-    - {label: "Phone", name: "phone", widget: "string"}
-    - {label: "Email", name: "email", widget: "string"}
-    - {label: "Bio", name: "bio", widget: "markdown"}
-    - {label: "LinkedIn Profile URL", name: "linkedin_url", widget: "string"}
+  - name: "personal" # Used in routes, e.g., /admin/collections/content
+    label: "Personal" # Used in the UI
+    folder: "content/personal" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Phone", name: "phone", widget: "string" }
+      - { label: "Email", name: "email", widget: "string" }
+      - { label: "Bio", name: "bio", widget: "markdown" }
+      - { label: "LinkedIn Profile URL", name: "linkedin_url", widget: "string" }
+  - name: "experience" # Used in routes, e.g., /admin/collections/content
+    label: "Experience" # Used in the UI
+    folder: "content/experience" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Job Title", name: "job_title", widget: "string" }
+      - { label: "Company", name: "company", widget: "string" }
+      - { label: "Info", name: "info", widget: "markdown" }
+      - { label: "Date - From", name: "date_from", widget: "datetime", date_format: "MMMM YYYY" }
+      - { label: "Date - To", name: "date_to", widget: "datetime", date_format: "MMMM YYYY" }

@@ -1,30 +1,22 @@
 <template>
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-        <div class="w-100">
-            <div v-for="edge in $static.content.edges">
-                <h2>{{ edge.node.title }}</h2>
-            </div>
+        <div class="w-100" v-for="edge in $static.personal.edges">
             <h1 class="mb-0">
                 Martyna
                 <span class="text-primary">Jońca</span>
             </h1>
             <div class="subheading mb-5">
-                Wroclaw tel. (123) 456-7890 ·
-                <a href="mailto:name@email.com">mjonca@email.com</a>
+                Wroclaw tel. {{ edge.node.phone }}
+                <a href="mailto:name@email.com">{{ edge.node.email }}</a>
             </div>
-            <p class="lead mb-5"
-            >Data-driven Digital Marketing Specialist with 3+ years of experience specializing in inbound marketing.
-                Drives traffic and boosts audience engagement with dynamic marketing strategies and campaigns.
+            <p class="lead mb-5">
+                {{ edge.node.bio }}
             </p>
 
             <div class="social-icons">
-                <a href="" target="_blank" rel="noopener noreferrer"
+                <a :href="edge.node.linkedin_url" target="_blank" rel="noopener noreferrer"
                    aria-label="LinkedIn Profile">
                     <font-awesome :icon="['fab', 'linkedin']"/>
-                </a>
-                <a href="" target="_blank" rel="noopener noreferrer"
-                   aria-label="Facebook Profile">
-                    <font-awesome :icon="['fab', 'facebook']"/>
                 </a>
             </div>
         </div>
@@ -33,13 +25,16 @@
 
 <static-query>
 query {
-  content: allContent {
-    edges {
-      node {
-        title
-      }
+    personal: allPersonal {
+        edges {
+            node {
+                phone
+                email
+                bio
+                linkedin_url
+            }
+        }
     }
-  }
 }
 </static-query>
 

@@ -1,18 +1,20 @@
 <template>
     <Layout>
         <div class="container-fluid p-0">
-            <About/>
+            <Personal/>
             <hr class="m-0">
+            <Experience/>
         </div>
     </Layout>
 </template>
 
 <script>
-import About from "../components/About";
+import Personal from "../components/Personal";
+import Experience from "../components/Experience";
 
 export default {
     components: {
-        About
+        Personal, Experience
     },
     metaInfo: {
         title: "Martyna Jońca -  Marketing Specialist"

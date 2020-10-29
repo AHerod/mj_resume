@@ -4,6 +4,7 @@
 
 module.exports = {
   siteName: 'Martyna Jonca - Marketing Specialist',
+
   transformers: {
     remark: {
       externalLinksTarget: '_blank',
@@ -11,12 +12,20 @@ module.exports = {
       anchorClassName: 'icon icon-link',
     }
   },
-    plugins: [
+  plugins: [
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'content/**/*.md',
-        typeName: 'Content',
+        path: 'content/personal/*.md',
+        typeName: 'Personal',
+        remark: {}
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/experience/*.md',
+        typeName: 'Experience',
         remark: {}
       }
     },

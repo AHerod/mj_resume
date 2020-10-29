@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96ee4e6-0dd2-4418-924f-41afa2560f82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Experience.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Personal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/Personal.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/personal/map-phone-123-456-789-email-example-email-com-bio-data-driven-digital-marketing-specialist-with-3-years-of-experience-specializing-in-inbound-marketing-drives-traffic-and-boosts-audience-engagement-with-dynamic-marketing-strategies-and.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/personal_template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/uploads" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -36,10 +43,12 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\WEB DEV\private\mj_resume\src\components" />
+      <recent name="E:\WEB DEV\private\mj_resume\src\pages" />
       <recent name="E:\WEB DEV\private\mj_resume\static" />
       <recent name="E:\WEB DEV\private\mj_resume\src\assets\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WEB DEV\private\mj_resume\src\pages" />
       <recent name="E:\WEB DEV\private\mj_resume\static\uploads" />
       <recent name="E:\WEB DEV\private\mj_resume\src\components" />
       <recent name="E:\WEB DEV\private\mj_resume\src\assets\styles" />
@@ -56,7 +65,7 @@
       <workItem from="1603820873799" duration="8218000" />
       <workItem from="1603832254622" duration="6210000" />
       <workItem from="1603906213686" duration="2609000" />
-      <workItem from="1603908853791" duration="9395000" />
+      <workItem from="1603908853791" duration="19793000" />
     </task>
     <task id="LOCAL-00001" summary="init commit - create gridsome project">
       <created>1603820938810</created>
@@ -121,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604001260590</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="change commit massage templates">
+      <created>1604001740113</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604001740113</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,41 +155,46 @@
     <MESSAGE value="rename folders" />
     <MESSAGE value="set up custom commit messages for changes published in CMS" />
     <MESSAGE value="add subfolder for collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="add subfolder for collections" />
+    <MESSAGE value="change commit massage templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="change commit massage templates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1350" y="837" key="#Vue" timestamp="1603824552448">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
     <state x="-1350" y="837" key="#Vue/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603824552448" />
-    <state x="-1421" y="875" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603999693406">
+    <state x="-1421" y="875" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604006824381">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1421" y="875" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603999693406" />
-    <state x="-1527" y="822" key="CommitChangelistDialog2" timestamp="1604001258948">
+    <state x="-1421" y="875" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604006824381" />
+    <state x="-1527" y="822" key="CommitChangelistDialog2" timestamp="1604001738403">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1527" y="822" key="CommitChangelistDialog2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604001258948" />
-    <state x="-1773" y="781" width="1228" height="687" key="DiffContextDialog" timestamp="1603909299397">
+    <state x="-1527" y="822" key="CommitChangelistDialog2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604001738403" />
+    <state x="-1773" y="781" width="1228" height="687" key="DiffContextDialog" timestamp="1604011479728">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1773" y="781" width="1228" height="687" key="DiffContextDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603909299397" />
+    <state x="-1773" y="781" width="1228" height="687" key="DiffContextDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604011479728" />
     <state x="-1327" y="1030" key="Github.CreateGistDialog" timestamp="1603996615908">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
     <state x="-1327" y="1030" key="Github.CreateGistDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603996615908" />
-    <state x="-1323" y="831" key="RollbackChangesDialog" timestamp="1603909347107">
+    <state x="-1920" y="831" key="RollbackChangesDialog" timestamp="1604011481061">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1323" y="831" key="RollbackChangesDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603909347107" />
+    <state x="-1920" y="831" key="RollbackChangesDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604011481061" />
     <state x="-1643" y="773" key="SettingsEditor" timestamp="1603832230413">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
     <state x="-1643" y="773" key="SettingsEditor/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603832230413" />
-    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2" timestamp="1604001262761">
+    <state x="-1308" y="826" key="VCS.ChangeListViewerDialog" timestamp="1604007439133">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604001262761" />
+    <state x="-1308" y="826" key="VCS.ChangeListViewerDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604007439133" />
+    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2" timestamp="1604002013936">
+      <screen x="-1920" y="716" width="1536" height="824" />
+    </state>
+    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604002013936" />
     <state x="-1827" y="809" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603909299397">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
@@ -182,17 +203,29 @@
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
     <state x="-1827" y="809" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603909299397" />
-    <state x="-1442" y="727" width="579" height="801" key="find.popup" timestamp="1603993405198">
+    <state x="-1442" y="727" width="579" height="801" key="find.popup" timestamp="1604009148489">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1442" y="727" width="579" height="801" key="find.popup/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603993405198" />
+    <state x="-1442" y="727" width="579" height="801" key="find.popup/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604009148489" />
     <state x="-1495" y="545" key="run.anything.popup" timestamp="1603835111972">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
     <state x="-1495" y="545" key="run.anything.popup/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603835111972" />
-    <state x="-1489" y="861" width="672" height="678" key="search.everywhere.popup" timestamp="1603832145842">
+    <state x="-1489" y="861" width="672" height="678" key="search.everywhere.popup" timestamp="1604007604192">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1489" y="861" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603832145842" />
+    <state x="-1489" y="861" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604007604192" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/Index.vue</url>
+          <line>8</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
