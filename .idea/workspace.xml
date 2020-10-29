@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96ee4e6-0dd2-4418-924f-41afa2560f82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/about.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/uploads/profile.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/test-this-blog-page.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/test-this-blog-page.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <workItem from="1603820873799" duration="8218000" />
       <workItem from="1603832254622" duration="6210000" />
       <workItem from="1603906213686" duration="2609000" />
-      <workItem from="1603908853791" duration="7457000" />
+      <workItem from="1603908853791" duration="7943000" />
     </task>
     <task id="LOCAL-00001" summary="init commit - create gridsome project">
       <created>1603820938810</created>
@@ -98,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603830906524</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="netlify CMS setup: Personal Collection">
+      <created>1603999780827</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603999780827</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +116,8 @@
     <MESSAGE value="basic project setup, add About component" />
     <MESSAGE value="add bootstrap and basic styling" />
     <MESSAGE value="netlify CMS setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="netlify CMS setup" />
+    <MESSAGE value="netlify CMS setup: Personal Collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="netlify CMS setup: Personal Collection" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1350" y="837" key="#Vue" timestamp="1603824552448">
@@ -123,10 +128,10 @@
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
     <state x="-1421" y="875" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603999693406" />
-    <state x="-1527" y="822" key="CommitChangelistDialog2" timestamp="1603830904186">
+    <state x="-1527" y="822" key="CommitChangelistDialog2" timestamp="1603999777856">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1527" y="822" key="CommitChangelistDialog2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603830904186" />
+    <state x="-1527" y="822" key="CommitChangelistDialog2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603999777856" />
     <state x="-1773" y="781" width="1228" height="687" key="DiffContextDialog" timestamp="1603909299397">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
@@ -143,10 +148,10 @@
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
     <state x="-1643" y="773" key="SettingsEditor/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603832230413" />
-    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2" timestamp="1603830907752">
+    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2" timestamp="1603999782620">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603830907752" />
+    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603999782620" />
     <state x="-1827" y="809" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603909299397">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
