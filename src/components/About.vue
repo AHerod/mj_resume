@@ -1,6 +1,9 @@
 <template>
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
         <div class="w-100">
+            <div v-for="edge in $static.content.edges">
+                <h2>{{ edge.node.title }}</h2>
+            </div>
             <h1 class="mb-0">
                 Martyna
                 <span class="text-primary">Jońca</span>
@@ -9,8 +12,7 @@
                 Wroclaw tel. (123) 456-7890 ·
                 <a href="mailto:name@email.com">mjonca@email.com</a>
             </div>
-            <p
-                class="lead mb-5"
+            <p class="lead mb-5"
             >Data-driven Digital Marketing Specialist with 3+ years of experience specializing in inbound marketing.
                 Drives traffic and boosts audience engagement with dynamic marketing strategies and campaigns.
             </p>
@@ -28,6 +30,18 @@
         </div>
     </section>
 </template>
+
+<static-query>
+query {
+  content: allContent {
+    edges {
+      node {
+        title
+      }
+    }
+  }
+}
+</static-query>
 
 <style lang="scss" scoped>
 .social-icons a {

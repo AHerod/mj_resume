@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96ee4e6-0dd2-4418-924f-41afa2560f82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/uploads/profile.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +30,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/uploads" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WEB DEV\private\mj_resume\src\components" />
       <recent name="E:\WEB DEV\private\mj_resume\static" />
       <recent name="E:\WEB DEV\private\mj_resume\src\assets\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WEB DEV\private\mj_resume\static\uploads" />
       <recent name="E:\WEB DEV\private\mj_resume\src\components" />
       <recent name="E:\WEB DEV\private\mj_resume\src\assets\styles" />
     </key>
@@ -54,7 +58,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603820872287</updated>
-      <workItem from="1603820873799" duration="7159000" />
+      <workItem from="1603820873799" duration="8218000" />
+      <workItem from="1603832254622" duration="6210000" />
+      <workItem from="1603906213686" duration="2609000" />
+      <workItem from="1603908853791" duration="7457000" />
     </task>
     <task id="LOCAL-00001" summary="init commit - create gridsome project">
       <created>1603820938810</created>
@@ -84,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603826496110</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="netlify CMS setup">
+      <created>1603830906524</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603830906524</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,24 +111,61 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/AHerod/mj_resume" />
     <MESSAGE value="basic project setup, add About component" />
     <MESSAGE value="add bootstrap and basic styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bootstrap and basic styling" />
+    <MESSAGE value="netlify CMS setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="netlify CMS setup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1350" y="837" key="#Vue" timestamp="1603824552448">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
     <state x="-1350" y="837" key="#Vue/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603824552448" />
-    <state x="-1527" y="822" key="CommitChangelistDialog2" timestamp="1603826494900">
+    <state x="-1421" y="875" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603999693406">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1527" y="822" key="CommitChangelistDialog2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603826494900" />
-    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2" timestamp="1603826497688">
+    <state x="-1421" y="875" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603999693406" />
+    <state x="-1527" y="822" key="CommitChangelistDialog2" timestamp="1603830904186">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603826497688" />
-    <state x="-1442" y="727" width="579" height="801" key="find.popup" timestamp="1603826331952">
+    <state x="-1527" y="822" key="CommitChangelistDialog2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603830904186" />
+    <state x="-1773" y="781" width="1228" height="687" key="DiffContextDialog" timestamp="1603909299397">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1442" y="727" width="579" height="801" key="find.popup/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603826331952" />
+    <state x="-1773" y="781" width="1228" height="687" key="DiffContextDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603909299397" />
+    <state x="-1327" y="1030" key="Github.CreateGistDialog" timestamp="1603996615908">
+      <screen x="-1920" y="716" width="1536" height="824" />
+    </state>
+    <state x="-1327" y="1030" key="Github.CreateGistDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603996615908" />
+    <state x="-1323" y="831" key="RollbackChangesDialog" timestamp="1603909347107">
+      <screen x="-1920" y="716" width="1536" height="824" />
+    </state>
+    <state x="-1323" y="831" key="RollbackChangesDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603909347107" />
+    <state x="-1643" y="773" key="SettingsEditor" timestamp="1603832230413">
+      <screen x="-1920" y="716" width="1536" height="824" />
+    </state>
+    <state x="-1643" y="773" key="SettingsEditor/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603832230413" />
+    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2" timestamp="1603830907752">
+      <screen x="-1920" y="716" width="1536" height="824" />
+    </state>
+    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603830907752" />
+    <state x="-1827" y="809" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603909299397">
+      <screen x="-1920" y="716" width="1536" height="824" />
+    </state>
+    <state x="-1827" y="809" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603909299397" />
+    <state x="-1827" y="809" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603909299397">
+      <screen x="-1920" y="716" width="1536" height="824" />
+    </state>
+    <state x="-1827" y="809" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603909299397" />
+    <state x="-1442" y="727" width="579" height="801" key="find.popup" timestamp="1603993405198">
+      <screen x="-1920" y="716" width="1536" height="824" />
+    </state>
+    <state x="-1442" y="727" width="579" height="801" key="find.popup/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603993405198" />
+    <state x="-1495" y="545" key="run.anything.popup" timestamp="1603835111972">
+      <screen x="-1920" y="716" width="1536" height="824" />
+    </state>
+    <state x="-1495" y="545" key="run.anything.popup/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603835111972" />
+    <state x="-1489" y="861" width="672" height="678" key="search.everywhere.popup" timestamp="1603832145842">
+      <screen x="-1920" y="716" width="1536" height="824" />
+    </state>
+    <state x="-1489" y="861" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603832145842" />
   </component>
 </project>
