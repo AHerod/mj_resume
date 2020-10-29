@@ -2,11 +2,11 @@ backend:
   name: github
   repo: aherod/mj_resume
   commit_messages:
-    create: Create {{collection}} “{{slug}}” - author[{{author-name}}]
-    update: Update {{collection}} “{{slug}}” - author[{{author-name}}]
-    delete: Delete {{collection}} “{{slug}}” - author[{{author-name}}]
-    uploadMedia: Upload “{{path}}” - author[{{author-name}}]
-    deleteMedia: Delete “{{path}}” - author[{{author-name}}]
+    create: Create {{collection}} - author[{{author-name}}]
+    update: Update {{collection}} - author[{{author-name}}]
+    delete: Delete {{collection}} - author[{{author-name}}]
+    uploadMedia: Upload file “{{path}}” - author[{{author-name}}]
+    deleteMedia: Delete file “{{path}}” - author[{{author-name}}]
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
