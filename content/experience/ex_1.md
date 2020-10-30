@@ -11,6 +11,10 @@ duty:
     współpracy z grafikami;
   - Edycja stron w CMS WordPress (m.in prowadzenie platformy szkoleniowej)
   - Organizacja eventów;
+duties:
+  - example 1
+  - example 2
+  - example 3
 date_from: Czerwiec 2019
 date_to: obecnie
 ---
