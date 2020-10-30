@@ -15,6 +15,7 @@ section.resume-section {
             cursor: pointer;
             transition: .2s ease-in-out all;
             text-align: center;
+            margin: 0 10px;
 
             &:hover {
                 transition: .2s ease-in-out all;
@@ -22,6 +23,10 @@ section.resume-section {
                 color: $white;
             }
         }
+    }
+
+    .skills {
+        width: 100%;
     }
 }
 
