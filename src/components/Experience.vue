@@ -12,7 +12,7 @@
                     </ul>
                 </div>
                 <div class="resume-date text-md-right">
-                    <span class="text-primary">{{ edge.node.date_from }} - {{ edge.node.date_to }}</span>
+                    <span class="text-primary text-capitalize">{{ edge.node.date_from }} - {{ edge.node.date_to }}</span>
                 </div>
             </div>
 

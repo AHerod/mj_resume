@@ -1,9 +1,7 @@
 ---
 phone: 123 456 789
 email: example@email.com
-bio: Data-driven Digital Marketing Specialist with 3+ years of experience
-  specializing in inbound marketing. Drives traffic and boosts audience
-  engagement with dynamic marketing strategies and campaigns.
+bio: W marketingu chodzę swoimi ścieżkami - jestem zwolenniczką poznawania nowych rzeczy, dzięki którym cały czas rozwijam swoją wiedzę. W pracy skupiam się na kreatywnych rozwiązaniach, które generują korzyści dla moich klientów.
 linkedin_url: https://www.linkedin.com/
 profile_photo: /uploads/profile.jpeg
 ---

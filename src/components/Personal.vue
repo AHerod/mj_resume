@@ -14,7 +14,7 @@
             </p>
 
             <div class="social-icons">
-                <a :href="edge.node.linkedin_url" target="_blank" rel="noopener noreferrer"
+                <a :href="edge.node.linkedin_url" class="shadow" target="_blank" rel="noopener noreferrer"
                    aria-label="LinkedIn Profile">
                     <font-awesome :icon="['fab', 'linkedin']"/>
                 </a>

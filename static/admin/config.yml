@@ -45,3 +45,10 @@ collections:
       - { label: "Degree", name: "degree", widget: "string" }
       - { label: "Date - From", name: "date_from", widget: "string" }
       - { label: "Date - To", name: "date_to", widget: "string" }
+  - name: "skills"
+    label: "Skills"
+    folder: "content/skills"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - { label: "List of Skills", name: "skills", widget: "list" , label_singular: "skill", field: { label: "Skill" , name: "skill", widget: "string" } }

@@ -6,7 +6,7 @@
         <g-image v-for="edge in $static.personal.edges"
             alt="Image of Loke"
             :src="edge.node.profile_photo"
-            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            class="img-fluid img-profile rounded-circle mx-auto mb-2 shadow"
         />
             </span>
         </div>
@@ -23,7 +23,7 @@
                     <a class="nav-link" v-on:click.prevent="$scrollTo('#education')">Wykształcenie</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Umiejętności</a>
+                    <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Specjalizacje</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Zainteresowania</a>

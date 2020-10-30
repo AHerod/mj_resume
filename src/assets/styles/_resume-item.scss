@@ -8,6 +8,20 @@ section.resume-section {
             white-space: nowrap;
             min-width: none;
         }
+
+        .skill {
+            padding: 5px 15px;
+            border: 4px solid $primary;
+            cursor: pointer;
+            transition: .2s ease-in-out all;
+            text-align: center;
+
+            &:hover {
+                transition: .2s ease-in-out all;
+                background: $primary;
+                color: $white;
+            }
+        }
     }
 }
 
