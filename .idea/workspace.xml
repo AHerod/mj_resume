@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96ee4e6-0dd2-4418-924f-41afa2560f82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Experience.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Personal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/Personal.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/personal/map-phone-123-456-789-email-example-email-com-bio-data-driven-digital-marketing-specialist-with-3-years-of-experience-specializing-in-inbound-marketing-drives-traffic-and-boosts-audience-engagement-with-dynamic-marketing-strategies-and.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/personal/personal_template.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/experience/map-date_from-sun-jun-30-2019-00-07-24-gmt-0200-czas-środkowoeuropejski-letni-date_to-fri-oct-30-2020-00-07-47-gmt-0100-czas-środkowoeuropejski-standardowy-job_title-specjalista-ds-maretingu-company-agen-c-ja-marke-t-ingowa-xo-m.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/experience/ex_1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/experience/map-job_title-młodszy-specjalista-ds-maretingu-company-agencja-marketingowa-zielona-koza-burritkowo-info-copywriting-n-prowadzenie-sm-facebook-instagram-yt-n-współpraca-z-podwykonawcami-materiałów-btl-i-atl-n-edycja-str.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/experience/ex_2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Experience.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +61,8 @@
       <workItem from="1603820873799" duration="8218000" />
       <workItem from="1603832254622" duration="6210000" />
       <workItem from="1603906213686" duration="2609000" />
-      <workItem from="1603908853791" duration="19793000" />
+      <workItem from="1603908853791" duration="20909000" />
+      <workItem from="1604079498509" duration="1620000" />
     </task>
     <task id="LOCAL-00001" summary="init commit - create gridsome project">
       <created>1603820938810</created>
@@ -137,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604001740113</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add new collection type - Experience, setup static template">
+      <created>1604012412343</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604012412343</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +160,8 @@
     <MESSAGE value="set up custom commit messages for changes published in CMS" />
     <MESSAGE value="add subfolder for collections" />
     <MESSAGE value="change commit massage templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="change commit massage templates" />
+    <MESSAGE value="add new collection type - Experience, setup static template" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new collection type - Experience, setup static template" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1350" y="837" key="#Vue" timestamp="1603824552448">
@@ -167,10 +172,10 @@
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
     <state x="-1421" y="875" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604006824381" />
-    <state x="-1527" y="822" key="CommitChangelistDialog2" timestamp="1604001738403">
+    <state x="-1920" y="822" key="CommitChangelistDialog2" timestamp="1604012408991">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1527" y="822" key="CommitChangelistDialog2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604001738403" />
+    <state x="-1920" y="822" key="CommitChangelistDialog2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604012408991" />
     <state x="-1773" y="781" width="1228" height="687" key="DiffContextDialog" timestamp="1604011479728">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
@@ -191,10 +196,10 @@
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
     <state x="-1308" y="826" key="VCS.ChangeListViewerDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604007439133" />
-    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2" timestamp="1604002013936">
+    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2" timestamp="1604012414953">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604002013936" />
+    <state x="-1559" y="861" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604012414953" />
     <state x="-1827" y="809" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603909299397">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
@@ -203,10 +208,10 @@
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
     <state x="-1827" y="809" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603909299397" />
-    <state x="-1442" y="727" width="579" height="801" key="find.popup" timestamp="1604009148489">
+    <state x="-1442" y="727" width="579" height="801" key="find.popup" timestamp="1604013388331">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
-    <state x="-1442" y="727" width="579" height="801" key="find.popup/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604009148489" />
+    <state x="-1442" y="727" width="579" height="801" key="find.popup/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604013388331" />
     <state x="-1495" y="545" key="run.anything.popup" timestamp="1603835111972">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
@@ -222,7 +227,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/Index.vue</url>
           <line>8</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

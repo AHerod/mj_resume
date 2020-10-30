@@ -30,6 +30,6 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Job Title", name: "job_title", widget: "string" }
       - { label: "Company", name: "company", widget: "string" }
-      - { label: "Info", name: "info", widget: "markdown" }
-      - { label: "Date - From", name: "date_from", widget: "datetime", date_format: "MMMM YYYY" }
-      - { label: "Date - To", name: "date_to", widget: "datetime", date_format: "MMMM YYYY" }
+      - { label: "Info", name: "info", widget: "list" }
+      - { label: "Date - From", name: "date_from", widget: "string" }
+      - { label: "Date - To", name: "date_to", widget: "string" }
