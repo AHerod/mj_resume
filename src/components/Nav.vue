@@ -14,19 +14,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">About</a>
+                    <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">O mnie</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Experience</a>
+                    <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Doświadczenie</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" v-on:click.prevent="$scrollTo('#education')">Education</a>
+                    <a class="nav-link" v-on:click.prevent="$scrollTo('#education')">Wykształcenie</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Skills</a>
+                    <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Umiejętności</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Interests</a>
+                    <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Zainteresowania</a>
                 </li>
             </ul>
         </div>
