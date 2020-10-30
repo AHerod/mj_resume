@@ -31,6 +31,6 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Job Title", name: "job_title", widget: "string" }
       - { label: "Company", name: "company", widget: "string" }
-      - { label: "Duties", name: "duty", widget: "list" , label_singular: "duty", field: { label: "Duty" , name: "duty", widget: "string" } }
+      - { label: "Duties", name: "duties", widget: "list" , label_singular: "duty", field: { label: "Duty" , name: "duty", widget: "string" } }
       - { label: "Date - From", name: "date_from", widget: "string" }
       - { label: "Date - To", name: "date_to", widget: "string" }

@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c96ee4e6-0dd2-4418-924f-41afa2560f82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/experience/ex_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/experience/ex_1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/experience/ex_2.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/experience/ex_2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +79,7 @@
       <workItem from="1603832254622" duration="6210000" />
       <workItem from="1603906213686" duration="2609000" />
       <workItem from="1603908853791" duration="20909000" />
-      <workItem from="1604079498509" duration="3770000" />
+      <workItem from="1604079498509" duration="5364000" />
     </task>
     <task id="LOCAL-00001" summary="init commit - create gridsome project">
       <created>1603820938810</created>
@@ -148,11 +165,29 @@
       <option name="project" value="LOCAL" />
       <updated>1604081216603</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add image upload field, rename nav items">
+      <created>1604083553434</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604083553434</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -169,7 +204,8 @@
     <MESSAGE value="change commit massage templates" />
     <MESSAGE value="add new collection type - Experience, setup static template" />
     <MESSAGE value="query Experience collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="query Experience collection" />
+    <MESSAGE value="add image upload field, rename nav items" />
+    <option name="LAST_COMMIT_MESSAGE" value="add image upload field, rename nav items" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1350" y="837" key="#Vue" timestamp="1603824552448">
@@ -180,15 +216,16 @@
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
     <state x="-1421" y="875" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604006824381" />
-    <state x="10" y="1186" key="CommitChangelistDialog2" timestamp="1604081213665">
+    <state x="10" y="1186" key="CommitChangelistDialog2" timestamp="1604083550843">
       <screen x="10" y="1080" width="1536" height="824" />
     </state>
     <state x="-1920" y="822" key="CommitChangelistDialog2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604012408991" />
-    <state x="10" y="1186" key="CommitChangelistDialog2/0.0.1536.824/10.1080.1536.824@10.1080.1536.824" timestamp="1604081213665" />
-    <state x="-1773" y="781" width="1228" height="687" key="DiffContextDialog" timestamp="1604011479728">
-      <screen x="-1920" y="716" width="1536" height="824" />
+    <state x="10" y="1186" key="CommitChangelistDialog2/0.0.1536.824/10.1080.1536.824@10.1080.1536.824" timestamp="1604083550843" />
+    <state x="157" y="1145" width="1228" height="687" key="DiffContextDialog" timestamp="1604083534412">
+      <screen x="10" y="1080" width="1536" height="824" />
     </state>
     <state x="-1773" y="781" width="1228" height="687" key="DiffContextDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604011479728" />
+    <state x="157" y="1145" key="DiffContextDialog/0.0.1536.824/10.1080.1536.824@10.1080.1536.824" timestamp="1604083534412" />
     <state x="-1327" y="1030" key="Github.CreateGistDialog" timestamp="1603996615908">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
@@ -205,11 +242,11 @@
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
     <state x="-1308" y="826" key="VCS.ChangeListViewerDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604007439133" />
-    <state x="371" y="1225" key="Vcs.Push.Dialog.v2" timestamp="1604081219060">
+    <state x="371" y="1225" key="Vcs.Push.Dialog.v2" timestamp="1604083560579">
       <screen x="10" y="1080" width="1536" height="824" />
     </state>
     <state x="-1559" y="861" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604012414953" />
-    <state x="371" y="1225" key="Vcs.Push.Dialog.v2/0.0.1536.824/10.1080.1536.824@10.1080.1536.824" timestamp="1604081219060" />
+    <state x="371" y="1225" key="Vcs.Push.Dialog.v2/0.0.1536.824/10.1080.1536.824@10.1080.1536.824" timestamp="1604083560579" />
     <state x="-1827" y="809" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603909299397">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
