@@ -30,6 +30,14 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/education/*.md',
+        typeName: 'Education',
+        remark: {}
+      }
+    },
+    {
       use: `gridsome-plugin-netlify-cms`,
       options: {
         publicPath: `/admin`

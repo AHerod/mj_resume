@@ -4,6 +4,8 @@
             <Personal/>
             <hr class="m-0">
             <Experience/>
+            <hr class="m-0">
+            <Education/>
         </div>
     </Layout>
 </template>
@@ -11,10 +13,11 @@
 <script>
 import Personal from "../components/Personal";
 import Experience from "../components/Experience";
+import Education from "../components/Education";
 
 export default {
     components: {
-        Personal, Experience
+        Personal, Experience, Education
     },
     metaInfo: {
         title: "Martyna Jońca -  Marketing Specialist"

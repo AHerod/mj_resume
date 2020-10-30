@@ -3,16 +3,19 @@
         <div class="w-100">
             <h2 class="mb-5">Doświadczenie</h2>
 
-            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"  v-for="edge in $static.experience.edges">
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" v-for="edge in $static.experience.edges">
                 <div class="resume-content">
                     <h3 class="mb-0">{{ edge.node.job_title }}</h3>
                     <div class="subheading mb-3">{{ edge.node.company }}</div>
-                    <p>{{ edge.node.info }}</p>
+                    <ul>
+                        <li v-for="duty in edge.node.duties">{{ duty }}</li>
+                    </ul>
                 </div>
                 <div class="resume-date text-md-right">
                     <span class="text-primary">{{ edge.node.date_from }} - {{ edge.node.date_to }}</span>
                 </div>
             </div>
+
         </div>
     </section>
 </template>
@@ -24,6 +27,7 @@ query {
             node {
                 job_title
                 company
+                duties
                 date_from
                 date_to
             }

@@ -5,6 +5,7 @@ section.resume-section {
 
     .resume-item {
         .resume-date {
+            white-space: nowrap;
             min-width: none;
         }
     }
@@ -16,7 +17,7 @@ section.resume-section {
 
         .resume-item {
             .resume-date {
-                min-width: 18rem;
+                min-width: 7rem;
             }
         }
     }

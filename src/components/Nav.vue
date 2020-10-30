@@ -3,9 +3,9 @@
         <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand">
             <span class="d-block d-lg-none">Martyna Jońca</span>
             <span class="d-none d-lg-block">
-        <g-image
+        <g-image v-for="edge in $static.personal.edges"
             alt="Image of Loke"
-            src="../assets/images/profile.jpeg"
+            :src="edge.node.profile_photo"
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
         />
             </span>
@@ -32,6 +32,18 @@
         </div>
     </nav>
 </template>
+
+<static-query>
+query {
+    personal: allPersonal {
+        edges {
+            node {
+                profile_photo
+            }
+        }
+    }
+}
+</static-query>
 
 <style scoped lang="scss">
 .navbar-brand,
