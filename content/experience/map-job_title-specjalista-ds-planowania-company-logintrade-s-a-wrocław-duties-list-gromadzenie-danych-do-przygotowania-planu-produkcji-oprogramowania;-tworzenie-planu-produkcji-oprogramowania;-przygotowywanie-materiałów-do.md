@@ -1,5 +1,5 @@
 ---
-job_title: Specjalista ds planowania
+job_title: Specjalista ds. planowania
 company: Logintrade S.A. Wrocław
 duties:
   - Gromadzenie danych do przygotowania planu produkcji oprogramowania;
