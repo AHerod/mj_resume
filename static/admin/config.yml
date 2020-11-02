@@ -9,7 +9,7 @@ backend:
     deleteMedia: Delete file “{{path}}” - author[{{author-name}}]
 
 media_folder: "/static/uploads"
-public_folder: "../../uploads"
+public_folder: "../../static/uploads"
 
 collections:
   - name: "personal" # Used in routes, e.g., /admin/collections/content
