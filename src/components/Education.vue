@@ -1,7 +1,7 @@
 <template>
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
         <div class="w-100">
-            <h2 class="mb-5">Edukacja</h2>
+            <h2 class="section-title">Edukacja</h2>
 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" v-for="edge in $static.education.edges">
                 <div class="resume-content">

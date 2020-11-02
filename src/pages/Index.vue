@@ -54,12 +54,6 @@ export default {
     color: var(--primary);
 }
 
-section.resume-section {
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important;
-    max-width: 75rem;
-}
-
 section.resume-section .resume-item .resume-date {
     min-width: none;
 }
@@ -73,10 +67,4 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
-@media (min-width: 992px) {
-    section.resume-section {
-        padding-top: 3rem !important;
-        padding-bottom: 3rem !important;
-    }
-}
 </style>
