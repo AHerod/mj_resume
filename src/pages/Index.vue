@@ -8,6 +8,8 @@
             <Education/>
             <hr class="m-0">
             <Skills/>
+            <hr class="m-0">
+            <Form/>
         </div>
     </Layout>
 </template>
@@ -17,10 +19,11 @@ import Personal from "../components/Personal";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Skills from "../components/Skills";
+import Form from "../templates/Form";
 
 export default {
     components: {
-        Personal, Experience, Education, Skills
+        Personal, Experience, Education, Skills, Form
     },
     metaInfo: {
         title: "Martyna Jońca -  Marketing Specialist"
