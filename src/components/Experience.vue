@@ -1,7 +1,7 @@
 <template>
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div class="w-100">
-            <h2 class="mb-5">Doświadczenie</h2>
+            <h2 class="section-title">Doświadczenie</h2>
 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" v-for="edge in $static.experience.edges">
                 <div class="resume-content">
