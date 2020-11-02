@@ -93,3 +93,29 @@ p.lead {
         }
     }
 }
+
+
+.section-title {
+    position: relative;
+    margin-bottom: 3rem;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 5rem;
+    }
+
+    &:after {
+        content: '';
+        height: 10px;
+        width: 120px;
+        background: $primary;
+        position: absolute;
+        left: -50px;
+        bottom: -10px;
+
+        @media screen and (min-width: 768px) {
+            bottom: -20px;
+            height: 20px;
+            width: 150px;
+        }
+    }
+}
