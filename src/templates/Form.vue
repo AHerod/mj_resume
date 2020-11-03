@@ -12,7 +12,7 @@
                         class="shadow p-4 mr-md-3"
                 >
 
-                    <input type="hidden" name="contact-form" value="contact"/>
+                    <input type="hidden" name="form-name" value="contact"/>
                     <p hidden>
                         <label>
                             <input name="bot-field"/>
@@ -80,7 +80,7 @@ export default {
                 method: 'POST',
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'},
                 body: this.encode({
-                    'contact-form': e.target.getAttribute('name'),
+                    'form-name': e.target.getAttribute('name'),
                     ...this.formData,
                 }),
             })
