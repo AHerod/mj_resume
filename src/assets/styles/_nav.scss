@@ -1,4 +1,6 @@
 #sideNav {
+    box-shadow: 0 2px 10px 0 $black;
+
     .navbar-nav .nav-item .nav-link {
         font-weight: 800;
         letter-spacing: 0.05rem;
@@ -15,6 +17,7 @@
 
 @media (min-width: 992px) {
     #sideNav {
+        box-shadow: -3px 0 20px 0 $black;
         text-align: center;
         position: fixed;
         top: 0;
