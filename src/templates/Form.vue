@@ -11,7 +11,6 @@
                             data-netlify="true"
                             data-netlify-honeypot="bot-field"
                             class="shadow p-4 mr-md-3"
-                            v-scroll-reveal.reset
                     >
 
                         <input type="hidden" name="form-name" value="contact"/>
@@ -42,7 +41,7 @@
 
                         <button type="submit" class="btn btn-primary w-50 float-right">Wyślij</button>
                     </b-form>
-                    <div class="d-flex flex-column mt-5 ml-md-3" v-scroll-reveal.reset>
+                    <div class="d-flex flex-column mt-5 ml-md-3">
                         <h4> zostaw wiadomość lub zadzwoń </h4>
                         <h2 class="text-primary" v-for="edge in $static.personal.edges"> {{ edge.node.phone }}</h2>
                     </div>

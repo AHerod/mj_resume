@@ -6,7 +6,6 @@
             <ClientOnly>
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
                      v-for="edge in $static.education.edges"
-                     v-scroll-reveal.reset
                 >
                     <div class="resume-content">
                         <h3 class="mb-0">{{ edge.node.major }}</h3>

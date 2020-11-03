@@ -3,7 +3,7 @@
 
         <ClientOnly>
             <div class="w-100" v-for="edge in $static.personal.edges">
-                <h1 class="mb-0" v-scroll-reveal.reset>
+                <h1 class="mb-0">
                     Martyna
                     <span class="text-primary">Jońca</span>
                 </h1>
@@ -11,7 +11,7 @@
                     Wroclaw tel. {{ edge.node.phone }}
                     <a href="mailto:name@email.com">{{ edge.node.email }}</a>
                 </div>
-                <p class="lead mb-5" v-scroll-reveal.reset>
+                <p class="lead mb-5">
                     {{ edge.node.bio }}
                 </p>
 

@@ -2,7 +2,6 @@ import DefaultLayout from '~/layouts/Default.vue'
 
 import VueScrollTo from 'vue-scrollto'
 import BootstrapVue from 'bootstrap-vue'
-import VueScrollReveal from 'vue-scroll-reveal';
 
 import './assets/styles/main.scss'
 import {
@@ -49,13 +48,6 @@ export default function (Vue, {
   Vue.use(VueScrollTo)
   Vue.use(BootstrapVue)
   Vue.component('Layout', DefaultLayout)
-
-  Vue.use(VueScrollReveal, {
-    duration: 800,
-    scale: 1,
-    distance: '10px',
-    mobile: false
-  });
 
   Vue.component('font-awesome', FontAwesomeIcon)
 
