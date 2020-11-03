@@ -1,7 +1,7 @@
 <template>
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
         <div class="w-100" v-for="edge in $static.personal.edges">
-            <h1 class="mb-0">
+            <h1 class="mb-0"  v-scroll-reveal.reset>
                 Martyna
                 <span class="text-primary">Jońca</span>
             </h1>
@@ -9,7 +9,7 @@
                 Wroclaw tel. {{ edge.node.phone }}
                 <a href="mailto:name@email.com">{{ edge.node.email }}</a>
             </div>
-            <p class="lead mb-5">
+            <p class="lead mb-5"  v-scroll-reveal.reset>
                 {{ edge.node.bio }}
             </p>
 

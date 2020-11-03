@@ -1,10 +1,12 @@
 <template>
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center headline" id="interests">
         <div class="w-100">
             <h2 class="section-title">Pasje</h2>
 
             <div class="resume-item d-flex flex-column justify-content-between mb-5">
-                <div class="resume-content d-flex align-items-center" v-for="(edge, index) in $static.interests.edges" :class="{'flex-row-reverse': index % 2 === 0 }">
+                <div  class="resume-content d-flex align-items-center"
+                      v-for="(edge, index) in $static.interests.edges" :class="{'flex-row-reverse': index % 2 === 0 }"
+                      v-scroll-reveal.reset>
                     <font-awesome :icon="['fas', edge.node.icon]" size="9x"/>
                     <div class="p-4 p-md-5 w-75">
                         <h3 class="mb-0">{{ edge.node.interest }}</h3>
