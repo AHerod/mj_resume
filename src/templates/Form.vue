@@ -35,6 +35,7 @@
                             <label for="message">Wiadomość</label>
                             <textarea name="message" class="form-control" v-model="formData.message"></textarea>
                         </div>
+
                     </b-form-group>
 
                     <button type="submit" class="btn btn-primary w-50 float-right">Wyślij</button>

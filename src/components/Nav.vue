@@ -7,6 +7,7 @@
             alt="Image of Loke"
             :src="edge.node.profile_photo"
             class="img-fluid img-profile rounded-circle mx-auto mb-2 shadow"
+            quality="100"
         />
             </span>
         </div>
@@ -26,7 +27,7 @@
                     <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Specjalizacje</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Zainteresowania</a>
+                    <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Pasje</a>
                 </li>
                  <li class="nav-item">
                     <a class="nav-link" v-on:click.prevent="$scrollTo('#contact')">Kontakt</a>

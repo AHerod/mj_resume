@@ -10,14 +10,36 @@ import {
 import {
   FontAwesomeIcon
 } from '@fortawesome/vue-fontawesome'
+
+import {
+  faHiking,
+  faPhotoVideo,
+  faVideo,
+  faFilm,
+  faCamera,
+  faCameraRetro,
+  faMountain,
+  faRoute,
+  faMapMarkedAlt
+} from '@fortawesome/free-solid-svg-icons'
+
 import {
   faFacebook,
-  faLinkedin
+  faLinkedin,
 } from '@fortawesome/free-brands-svg-icons'
 
 library.add(
   faFacebook,
   faLinkedin,
+  faHiking,
+  faPhotoVideo,
+  faVideo,
+  faFilm,
+  faCamera,
+  faCameraRetro,
+  faMountain,
+  faRoute,
+  faMapMarkedAlt
 )
 export default function (Vue, {
   head,

@@ -51,4 +51,15 @@ collections:
     create: false
     slug: "{{slug}}"
     fields:
+      - { label: "List of Main Skills", name: "main_skills", widget: "list" , label_singular: "skill", field: { label: "Skill" , name: "main_skill", widget: "string" } }
       - { label: "List of Skills", name: "skills", widget: "list" , label_singular: "skill", field: { label: "Skill" , name: "skill", widget: "string" } }
+  - name: "interests"
+    label: "Interests"
+    folder: "content/interests"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Interest", name: "interest", widget: "string" }
+      - { label: "Details", name: "details", widget: "string" }
+      - { label: "Text", name: "text", widget: "markdown" }
+      - { label: "Icon", name: "icon", widget: "select", options: [ "hiking", "mountain", "route", "map-marked-alt", "photo-video", "video", "film", "camera", "camera-retro" ], hint: "see how selected icon looks like: https://fontawesome.com/icons?d=gallery&s=solid&m=free" }
