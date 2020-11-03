@@ -73,6 +73,15 @@ export default {
         }
     },
 
+    mounted() {
+        this.$VueScrollReveal({
+            duration: 800,
+            scale: 1,
+            distance: '10px',
+            mobile: false
+        });
+    },
+
     methods: {
         encode(data) {
             return Object.keys(data)
