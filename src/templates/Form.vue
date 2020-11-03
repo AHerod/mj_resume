@@ -1,52 +1,54 @@
 <template>
     <section class="resume-section p-3 p-lg-5 d-flex" id="contact">
-        <div class="w-100">
-            <h2 class="mb-4 mb-md-5">Pozostańmy w kontakcie</h2>
-            <div class="w-100 resume-item d-flex flex-column flex-md-row justify-content-around mb-5">
-                <b-form @submit="onSubmit"
-                        name="contact"
-                        method="post"
-                        action="/success/"
-                        data-netlify="true"
-                        data-netlify-honeypot="bot-field"
-                        class="shadow p-4 mr-md-3"
-                        v-scroll-reveal.reset
-                >
+        <ClientOnly>
+            <div class="w-100">
+                <h2 class="mb-4 mb-md-5">Pozostańmy w kontakcie</h2>
+                <div class="w-100 resume-item d-flex flex-column flex-md-row justify-content-around mb-5">
+                    <b-form @submit="onSubmit"
+                            name="contact"
+                            method="post"
+                            action="/success/"
+                            data-netlify="true"
+                            data-netlify-honeypot="bot-field"
+                            class="shadow p-4 mr-md-3"
+                            v-scroll-reveal.reset
+                    >
 
-                    <input type="hidden" name="form-name" value="contact"/>
-                    <p hidden>
-                        <label>
-                            <input name="bot-field"/>
-                        </label>
-                    </p>
+                        <input type="hidden" name="form-name" value="contact"/>
+                        <p hidden>
+                            <label>
+                                <input name="bot-field"/>
+                            </label>
+                        </p>
 
-                    <b-form-group>
-                        <div class="sender-info">
-                            <div>
-                                <label for="name" class="label">Imię</label>
-                                <input type="text" name="name" class="form-control" v-model="formData.name"/>
+                        <b-form-group>
+                            <div class="sender-info">
+                                <div>
+                                    <label for="name" class="label">Imię</label>
+                                    <input type="text" name="name" class="form-control" v-model="formData.name"/>
+                                </div>
+                                <div>
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" class="form-control" v-model="formData.email"/>
+                                </div>
                             </div>
-                            <div>
-                                <label for="email">Email</label>
-                                <input type="email" name="email" class="form-control" v-model="formData.email"/>
+
+                            <div class="message-wrapper">
+                                <label for="message">Wiadomość</label>
+                                <textarea name="message" class="form-control" v-model="formData.message"></textarea>
                             </div>
-                        </div>
 
-                        <div class="message-wrapper">
-                            <label for="message">Wiadomość</label>
-                            <textarea name="message" class="form-control" v-model="formData.message"></textarea>
-                        </div>
+                        </b-form-group>
 
-                    </b-form-group>
-
-                    <button type="submit" class="btn btn-primary w-50 float-right">Wyślij</button>
-                </b-form>
-                <div class="d-flex flex-column mt-5 ml-md-3" v-scroll-reveal.reset>
-                    <h4> zostaw wiadomość lub zadzwoń </h4>
-                    <h2 class="text-primary" v-for="edge in $static.personal.edges"> {{ edge.node.phone }}</h2>
+                        <button type="submit" class="btn btn-primary w-50 float-right">Wyślij</button>
+                    </b-form>
+                    <div class="d-flex flex-column mt-5 ml-md-3" v-scroll-reveal.reset>
+                        <h4> zostaw wiadomość lub zadzwoń </h4>
+                        <h2 class="text-primary" v-for="edge in $static.personal.edges"> {{ edge.node.phone }}</h2>
+                    </div>
                 </div>
             </div>
-        </div>
+        </ClientOnly>
 
     </section>
 </template>
