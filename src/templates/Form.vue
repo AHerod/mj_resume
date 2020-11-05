@@ -11,6 +11,7 @@
                             data-netlify="true"
                             data-netlify-honeypot="bot-field"
                             class="shadow p-4 mr-md-3"
+                            v-bind:class="{ submitted: isSubmitted }"
 
                     >
 
@@ -21,7 +22,7 @@
                             </label>
                         </p>
 
-                        <b-form-group>
+                        <b-form-group id="contact-form">
                             <div class="sender-info">
                                 <div>
                                     <label for="name" class="label">Imię</label>
@@ -71,6 +72,7 @@ export default {
     data() {
         return {
             formData: {},
+            isSubmitted: false
         }
     },
 
@@ -89,8 +91,8 @@ export default {
                     ...this.formData,
                 }),
             })
-                .then(() => document.getElementsByTagName('form').classList.add('submitted'), setTimeout(() => {
-                    document.getElementsByTagName('form').classList.remove('submitted')
+                .then(() => this.isSubmitted = !this.isSubmitted, setTimeout(() => {
+                    this.isSubmitted = !this.isSubmitted;
                 }, 3000))
                 .catch(error => alert(error))
         }
@@ -114,6 +116,7 @@ form {
     }
 
     h5 {
+        height: 0;
         opacity: 0;
         visibility: hidden;
         transition: .3s all ease-in-out;
