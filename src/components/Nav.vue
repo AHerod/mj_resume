@@ -64,7 +64,7 @@ profile_photo
         }
 
         &:nth-child(2) {
-            opacity: 75%;
+            color: rgba(255, 255, 255, .5);
         }
     }
 }
