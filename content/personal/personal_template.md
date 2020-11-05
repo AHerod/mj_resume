@@ -1,5 +1,5 @@
 ---
-profile_photo: ../../static/uploads/0.jpg
+profile_photo: ../../static/uploads/profile.webp
 phone: 123 456 789
 email: example@email.com
 bio: W marketingu chodzę swoimi ścieżkami - jestem zwolenniczką poznawania
