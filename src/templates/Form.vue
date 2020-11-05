@@ -7,7 +7,7 @@
                     <b-form @submit="onSubmit"
                             name="contact"
                             method="post"
-                            action="/success/"
+                            action="/"
                             data-netlify="true"
                             data-netlify-honeypot="bot-field"
                             class="shadow p-4 mr-md-3"
@@ -82,7 +82,7 @@ export default {
                 .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
                 .join('&')
         },
-        onSubmit(e) {
+        onSubmit: function (e) {
             fetch('/', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'},
