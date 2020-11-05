@@ -5,7 +5,8 @@
 
             <ClientOnly>
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-                     v-for="edge in $static.experience.edges">
+                     v-for="edge in $static.experience.edges"
+                     v-scroll-reveal.reset>
                     <div class="resume-content">
                         <h3 class="mb-0">{{ edge.node.job_title }}</h3>
                         <div class="subheading mb-3">{{ edge.node.company }}</div>
