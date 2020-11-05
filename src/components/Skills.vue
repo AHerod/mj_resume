@@ -7,7 +7,7 @@
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="resume-content d-flex justify-content-center flex-wrap skills"
                          v-for="edge in $static.skills.edges">
-                        <div class="skill subheading mb-3 shadow" v-for="skill in edge.node.main_skills">{{
+                        <div class="skill subheading mb-3 shadow" v-for="skill in edge.node.main_skills" v-scroll-reveal.reset>{{
                                 skill
                             }}
                         </div>
@@ -19,8 +19,8 @@
                 <h2 class="section-title">Umiejętności</h2>
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="resume-content d-flex justify-content-center flex-wrap skills"
-                         v-for="edge in $static.skills.edges" >
-                        <div class="skill subheading mb-3 shadow" v-for="skill in edge.node.skills">{{ skill }}</div>
+                         v-for="edge in $static.skills.edges">
+                        <div class="skill subheading mb-3 shadow" v-for="skill in edge.node.skills" v-scroll-reveal.reset>{{ skill }}</div>
                     </div>
                 </div>
             </div>

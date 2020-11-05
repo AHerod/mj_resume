@@ -2,7 +2,6 @@ import DefaultLayout from '~/layouts/Default.vue'
 
 import VueScrollTo from 'vue-scrollto'
 import BootstrapVue from 'bootstrap-vue'
-
 import './assets/styles/main.scss'
 import {
   library
@@ -45,6 +44,17 @@ library.add(
 export default function (Vue, {
   head,
 }) {
+  if (process.isClient) {
+    const VueScrollReveal = require('vue-scroll-reveal').default;
+
+    Vue.use(VueScrollReveal, {
+      class: 'v-scroll-reveal',
+      duration: 600,
+      scale: .9,
+      distance: '10px',
+      easing: 'ease-in-out'
+    });
+  }
   Vue.use(VueScrollTo)
   Vue.use(BootstrapVue)
   Vue.component('Layout', DefaultLayout)

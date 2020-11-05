@@ -1,13 +1,14 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top d-flex justify-content-center" id="sideNav">
         <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand">
-            <span class="d-block d-lg-none">Martyna Jońca</span>
+            <span class="d-lg-none d-inline-block">Martyna Jońca</span>
+            <span class="d-lg-none d-inline-block ml-2">Marketing Specialist</span>
             <span class="d-none d-lg-block">
         <g-image v-for="edge in $static.personal.edges"
-            alt="Image of Loke"
-            :src="edge.node.profile_photo"
-            class="img-fluid img-profile rounded-circle mx-auto mb-2 shadow"
-            quality="100"
+                 alt="Image of Loke"
+                 :src="edge.node.profile_photo"
+                 class="img-fluid img-profile rounded-circle mx-auto mb-2 shadow"
+                 quality="100"
         />
             </span>
         </div>
@@ -29,7 +30,7 @@
                 <li class="nav-item">
                     <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Pasje</a>
                 </li>
-                 <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link" v-on:click.prevent="$scrollTo('#contact')">Kontakt</a>
                 </li>
             </ul>
@@ -39,13 +40,13 @@
 
 <static-query>
 query {
-    personal: allPersonal {
-        edges {
-            node {
-                profile_photo
-            }
-        }
-    }
+personal: allPersonal {
+edges {
+node {
+profile_photo
+}
+}
+}
 }
 </static-query>
 
@@ -53,6 +54,19 @@ query {
 .navbar-brand,
 .nav-item {
     cursor: pointer;
+
+    span {
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+
+        &:first-child {
+            text-transform: uppercase;
+        }
+
+        &:nth-child(2) {
+            opacity: 75%;
+        }
+    }
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -71,7 +85,6 @@ query {
         position: fixed;
         top: 0;
         left: 0;
-        display: flex;
         flex-direction: column;
         width: 17rem;
         height: 100vh;
