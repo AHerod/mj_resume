@@ -44,9 +44,13 @@
                         <h5>Wiadomość została wysłana</h5>
                         <button type="submit" class="btn btn-primary w-50 float-right">Wyślij</button>
                     </b-form>
-                    <div class="d-flex flex-column mt-5 ml-md-3" v-scroll-reveal.reset>
+                    <div class="d-flex flex-column mt-5 ml-md-3 social-icons" v-scroll-reveal.reset>
                         <h4> zostaw wiadomość lub zadzwoń </h4>
                         <h2 class="text-primary" v-for="edge in $static.personal.edges"> {{ edge.node.phone }}</h2>
+                        <a v-for="edge in $static.personal.edges" :href="edge.node.linkedin_url" class="shadow mt-5" target="_blank" rel="noopener noreferrer"
+                           aria-label="LinkedIn Profile">
+                            <font-awesome :icon="['fab', 'linkedin']"/>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -61,6 +65,7 @@ personal: allPersonal {
 edges {
 node {
 phone
+linkedin_url
 }
 }
 }

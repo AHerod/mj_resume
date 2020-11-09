@@ -7,24 +7,17 @@
                     Martyna
                     <span class="text-primary">Jońca</span>
                 </h1>
-                <div class="subheading mb-5">
+                <div class="subheading mb-5 d-flex align-items-center">
                     Wroclaw tel. {{ edge.node.phone }}
-                    <a href="mailto:name@email.com">{{ edge.node.email }}</a>
+                    <a href="mailto:name@email.com" class="px-3">{{ edge.node.email }}</a>
                 </div>
                 <p class="lead mb-5" v-scroll-reveal.reset>
                     {{ edge.node.bio }}
                 </p>
-
-                <div class="social-icons">
-                    <a :href="edge.node.linkedin_url" class="shadow" target="_blank" rel="noopener noreferrer"
-                       aria-label="LinkedIn Profile">
-                        <font-awesome :icon="['fab', 'linkedin']"/>
-                    </a>
-                </div>
             </div>
 
             <div class="w-100">
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 mt-5">
                     <div class="resume-content d-flex justify-content-center flex-wrap skills"
                          v-for="edge in $static.skills.edges">
                         <div class="skill subheading mb-3 shadow" v-for="skill in edge.node.main_skills"

@@ -1,6 +1,6 @@
 ---
 profile_photo: ../../static/uploads/profile.webp
-phone: "88 31 37 118 "
+phone: "883 137 118 "
 email: mar-jonca@wp.pl
 bio: W marketingu chodzę swoimi ścieżkami - jestem zwolenniczką poznawania
   nowych rzeczy, dzięki którym cały czas rozwijam swoją wiedzę. W pracy skupiam

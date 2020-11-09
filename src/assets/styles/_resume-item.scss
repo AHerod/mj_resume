@@ -22,12 +22,6 @@ section.resume-section {
             transition: .2s ease-in-out all;
             text-align: center;
             margin: 0 10px;
-
-            &:hover {
-                transition: .2s ease-in-out all;
-                background: $primary;
-                color: $white;
-            }
         }
     }
 

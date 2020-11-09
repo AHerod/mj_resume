@@ -25,7 +25,7 @@
                     <a class="nav-link" v-on:click.prevent="$scrollTo('#education')">Wykształcenie</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Specjalizacje</a>
+                    <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Umiejętności</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Pasje</a>
