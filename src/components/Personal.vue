@@ -1,5 +1,5 @@
 <template>
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column align-items-center" id="about">
 
         <ClientOnly>
             <div class="w-100" v-for="edge in $static.personal.edges">
@@ -22,6 +22,19 @@
                     </a>
                 </div>
             </div>
+
+            <div class="w-100">
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content d-flex justify-content-center flex-wrap skills"
+                         v-for="edge in $static.skills.edges">
+                        <div class="skill subheading mb-3 shadow" v-for="skill in edge.node.main_skills"
+                             v-scroll-reveal.reset>{{
+                                skill
+                            }}
+                        </div>
+                    </div>
+                </div>
+            </div>
         </ClientOnly>
 
     </section>
@@ -36,6 +49,14 @@ phone
 email
 bio
 linkedin_url
+}
+}
+}
+
+skills: allSkills {
+edges {
+node {
+main_skills
 }
 }
 }
