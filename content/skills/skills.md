@@ -7,8 +7,24 @@ main_skills:
   - Komunikacja wizerunkowa
   - Strategia marketingowa
 skills:
+  - Facebook Ads
   - WordPress
-  - Facebook
-  - Trello
   - Instagram
+  - Copywriting
+  - Google Analytics
+  - Brand24
+  - Canva
+  - Sotrender
+  - Hotjar
+  - Excel
+  - FreshMail
+  - Trello
+  - CRM
+  - Redmine
+  - Photoshop podstawy
+  - Język korzyści
+  - Umiejętność pracy w zespole
+  - Wystąpienia publiczne
+  - Zarządzanie zespołem sprzedaży
+  - Prowadzenie szkoleń
 ---
