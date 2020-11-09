@@ -29,22 +29,32 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Job Title", name: "job_title", widget: "string" }
-      - { label: "Company", name: "company", widget: "string" }
-      - { label: "Duties", name: "duties", widget: "list" , label_singular: "duty", field: { label: "Duty" , name: "duty", widget: "string" } }
-      - { label: "Date - From", name: "date_from", widget: "string" }
-      - { label: "Date - To", name: "date_to", widget: "string" }
+      - label: "List of Work Experience"
+        name: "experience"
+        widget: "list"
+        label_singular: "experience"
+        fields:
+          - { label: "Job Title", name: "job_title", widget: "string" }
+          - { label: "Company", name: "company", widget: "string" }
+          - { label: "Duties", name: "duties", widget: "list" , label_singular: "duty", field: { label: "Duty" , name: "duty", widget: "string" } }
+          - { label: "Date - From", name: "date_from", widget: "string" }
+          - { label: "Date - To", name: "date_to", widget: "string" }
   - name: "education"
     label: "Education"
     folder: "content/education"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "University", name: "university", widget: "string" }
-      - { label: "Major", name: "major", widget: "string" }
-      - { label: "Degree", name: "degree", widget: "string" }
-      - { label: "Date - From", name: "date_from", widget: "string" }
-      - { label: "Date - To", name: "date_to", widget: "string" }
+      - label: "List of Education Levels"
+        name: "education"
+        widget: "list"
+        label_singular: "education"
+        fields:
+          - { label: "University", name: "university", widget: "string" }
+          - { label: "Major", name: "major", widget: "string" }
+          - { label: "Degree", name: "degree", widget: "string" }
+          - { label: "Date - From", name: "date_from", widget: "string" }
+          - { label: "Date - To", name: "date_to", widget: "string" }
   - name: "skills"
     label: "Skills"
     folder: "content/skills"
