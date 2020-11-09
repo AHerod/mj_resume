@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c96ee4e6-0dd2-4418-924f-41afa2560f82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/templates/Form.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/Form.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Interests.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Interests.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="personal-redesign" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

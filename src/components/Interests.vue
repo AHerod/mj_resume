@@ -13,7 +13,7 @@
                         <div class="p-4 p-md-5 w-75">
                             <h3 class="mb-0">{{ edge.node.interest }}</h3>
                             <div class="subheading mb-3">{{ edge.node.details }}</div>
-                            <p class="text-capitalize">{{ edge.node.text }}</p>
+                            <p>{{ edge.node.text }}</p>
                         </div>
                     </div>
                 </div>
