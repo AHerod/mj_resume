@@ -7,9 +7,9 @@
                     Martyna
                     <span class="text-primary">Jońca</span>
                 </h1>
-                <div class="subheading mb-5 d-flex align-items-center">
-                    Wroclaw tel. {{ edge.node.phone }}
-                    <a href="mailto:name@email.com" class="px-3">{{ edge.node.email }}</a>
+                <div class="subheading mb-5">
+                    <span class="pr-2">Wroclaw tel. {{ edge.node.phone }}</span>
+                    <a class="d-inline-block" href="mailto:name@email.com">{{ edge.node.email }}</a>
                 </div>
                 <p class="lead mb-5" v-scroll-reveal.reset>
                     {{ edge.node.bio }}
