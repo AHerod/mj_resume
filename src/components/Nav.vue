@@ -5,10 +5,13 @@
             <span class="d-lg-none d-inline-block ml-2">Marketing Specialist</span>
             <span class="d-none d-lg-block">
         <g-image v-for="edge in $static.personal.edges"
-                 alt="Image of Loke"
+                 alt="Author Photo"
                  :src="edge.node.profile_photo"
                  class="img-fluid img-profile rounded-circle mx-auto mb-2 shadow"
                  quality="100"
+                 width="auto"
+                 height="auto"
+                 v-bind:key="1"
         />
             </span>
         </div>

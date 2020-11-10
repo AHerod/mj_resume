@@ -51,7 +51,7 @@ export default function (Vue, {
       class: 'v-scroll-reveal',
       duration: 600,
       scale: .9,
-      distance: '10px',
+      distance: '30px',
       easing: 'ease-in-out'
     });
   }
