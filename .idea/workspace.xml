@@ -21,15 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c96ee4e6-0dd2-4418-924f-41afa2560f82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/education/edu_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/education/edu_1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/education/edu_2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/education/edu_3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/experience/ex_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/experience/ex_1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/experience/ex_2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/experience/map-job_title-doradca-sklepu-internetowego-company-call-center-dynamic-sales-wrocław-duties-list-pozyskiwanie-nowych-klientów-dla-sieci;-obsługa-klientów-biznesowych-i-indywidualnych;-budowanie-i-utrzymywanie-pozytywnych-r.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/experience/map-job_title-sales-manager-kierownik-company-call-center-dynamic-sales-wrocław-duties-list-sprawowanie-opieki-merytorycznej-nad-konsultantami-pracującymi-w-cc;-nadzorowanie-grafików-i-pracy-konsultantów-zespołu-sprzedażoweg.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/experience/map-job_title-specjalista-company-survival-race-duties-list-test-2-test-1-date_from-sierpien-2018-date_to-wrzesien-2019.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/experience/map-job_title-specjalista-ds-planowania-company-logintrade-s-a-wrocław-duties-list-gromadzenie-danych-do-przygotowania-planu-produkcji-oprogramowania;-tworzenie-planu-produkcji-oprogramowania;-przygotowywanie-materiałów-do.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/education/edu_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/education/education.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/experience/ex_1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/experience/map-experience-list-map-job_title-specjalista-ds-planowania-company-logintrade-s-a-duties-list-gromadzenie-danych-do-przygotowania-planu-produkcji-oprogramowania;-tworzenie-planu-produkcji-oprogramowania;-przygotowyw.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/experience/experience.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Education.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Education.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Experience.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +93,7 @@
       <workItem from="1604423145150" duration="17454000" />
       <workItem from="1604609263980" duration="7563000" />
       <workItem from="1604950851858" duration="912000" />
+      <workItem from="1605044314692" duration="3641000" />
     </task>
     <task id="LOCAL-00001" summary="init commit - create gridsome project">
       <created>1603820938810</created>
@@ -333,11 +330,12 @@
     </state>
     <state x="-1920" y="822" key="CommitChangelistDialog2/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604012408991" />
     <state x="10" y="1172" key="CommitChangelistDialog2/0.0.1536.824/10.1080.1536.824@10.1080.1536.824" timestamp="1604618076419" />
-    <state x="157" y="1145" width="1394" height="687" key="DiffContextDialog" timestamp="1604618139389">
-      <screen x="10" y="1080" width="1536" height="824" />
+    <state x="147" y="65" width="1394" height="687" key="DiffContextDialog" timestamp="1605047958881">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1773" y="781" width="1228" height="687" key="DiffContextDialog/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604011479728" />
     <state x="157" y="1145" width="1394" height="687" key="DiffContextDialog/0.0.1536.824/10.1080.1536.824@10.1080.1536.824" timestamp="1604618139389" />
+    <state x="147" y="65" width="1394" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1605047958881" />
     <state x="-1327" y="1030" key="Github.CreateGistDialog" timestamp="1603996615908">
       <screen x="-1920" y="716" width="1536" height="824" />
     </state>
@@ -389,11 +387,11 @@
     <state x="-1442" y="727" width="579" height="801" key="find.popup/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1604013388331" />
     <state x="488" y="1091" width="579" height="801" key="find.popup/0.0.1536.824/10.1080.1536.824@10.1080.1536.824" timestamp="1604613232371" />
     <state x="478" y="11" width="789" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1604952565260" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1604956545866">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1605045170830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1495" y="545" key="run.anything.popup/0.0.1536.824/-1920.716.1536.824@-1920.716.1536.824" timestamp="1603835111972" />
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1604956545866" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1605045170830" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604953328367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -26,7 +26,7 @@ collections:
   - name: "experience"
     label: "Experience"
     folder: "content/experience"
-    create: true
+    create: false
     slug: "{{slug}}"
     fields:
       - label: "List of Work Experience"
@@ -42,7 +42,7 @@ collections:
   - name: "education"
     label: "Education"
     folder: "content/education"
-    create: true
+    create: false
     slug: "{{slug}}"
     fields:
       - label: "List of Education Levels"
