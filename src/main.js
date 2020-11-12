@@ -20,7 +20,8 @@ import {
   faCameraRetro,
   faMountain,
   faRoute,
-  faMapMarkedAlt
+  faMapMarkedAlt,
+  faEllipsisV
 } from '@fortawesome/free-solid-svg-icons'
 
 import {
@@ -39,7 +40,8 @@ library.add(
   faCameraRetro,
   faMountain,
   faRoute,
-  faMapMarkedAlt
+  faMapMarkedAlt,
+  faEllipsisV
 )
 export default function (Vue, {
   head,

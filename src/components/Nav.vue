@@ -1,9 +1,13 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top d-flex justify-content-center" id="sideNav">
-        <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand">
-            <span class="d-lg-none d-inline-block">Martyna Jońca</span>
-            <span class="d-lg-none d-inline-block ml-2">Marketing Specialist</span>
-            <span class="d-none d-lg-block">
+    <div>
+        <a v-b-toggle href="#sideNav" class="navbar-toggler" @click.prevent> <font-awesome :icon="['fas','ellipsis-v']" size="2x"/></a>
+
+        <b-sidebar shadow  bg-variant="primary"
+                   class="navbar-expand-lg navbar-dark bg-primary fixed-top d-flex justify-content-center"
+                   id="sideNav" shadow backdrop>
+
+            <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand  d-flex justify-content-center">
+                <span class="d-none d-lg-block">
         <g-image v-for="edge in $static.personal.edges"
                  alt="Author Photo"
                  :src="edge.node.profile_photo"
@@ -14,31 +18,35 @@
                  v-bind:key="1"
         />
             </span>
-        </div>
+            </div>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">O mnie</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Doświadczenie</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" v-on:click.prevent="$scrollTo('#education')">Wykształcenie</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Umiejętności</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Pasje</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" v-on:click.prevent="$scrollTo('#contact')">Kontakt</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-4 ml-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">O mnie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Doświadczenie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" v-on:click.prevent="$scrollTo('#education')">Wykształcenie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Umiejętności</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Pasje</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" v-on:click.prevent="$scrollTo('#contact')">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+
+        </b-sidebar>
+
+    </div>
+
 </template>
 
 <static-query>
@@ -54,6 +62,12 @@ profile_photo
 </static-query>
 
 <style scoped lang="scss">
+.navbar-toggler {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 999;
+}
 .navbar-brand,
 .nav-item {
     cursor: pointer;
