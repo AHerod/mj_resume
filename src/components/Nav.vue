@@ -1,27 +1,29 @@
 <template>
     <div>
-        <a v-b-toggle href="#sideNav" class="navbar-toggler" @click.prevent> <font-awesome :icon="['fas','ellipsis-v']" size="2x"/></a>
+        <a v-b-toggle href="#sideNav" class="navbar-toggler d-lg-none" @click.prevent>
+            <font-awesome :icon="['fas','ellipsis-v']" size="2x"/>
+        </a>
 
-        <b-sidebar shadow  bg-variant="primary"
-                   class="navbar-expand-lg navbar-dark bg-primary fixed-top d-flex justify-content-center"
+        <b-sidebar bg-variant="primary"
+                   class="navbar-dark bg-primary fixed-top d-flex justify-content-center d-lg-flex"
                    id="sideNav" shadow backdrop>
 
             <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand  d-flex justify-content-center">
-                <span class="d-none d-lg-block">
-        <g-image v-for="edge in $static.personal.edges"
-                 alt="Author Photo"
-                 :src="edge.node.profile_photo"
-                 class="img-fluid img-profile rounded-circle mx-auto mb-2 shadow"
-                 quality="100"
-                 width="auto"
-                 height="auto"
-                 v-bind:key="1"
-        />
+            <span class="d-none d-lg-block">
+                <g-image v-for="edge in $static.personal.edges"
+                         alt="Author Photo"
+                         :src="edge.node.profile_photo"
+                         class="img-fluid img-profile rounded-circle mx-auto mb-2 shadow"
+                         quality="100"
+                         width="auto"
+                         height="auto"
+                         v-bind:key="1"
+                />
             </span>
             </div>
 
             <div class="navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-4 ml-md-0">
+                <ul class="navbar-nav ml-4 ml-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">O mnie</a>
                     </li>
@@ -68,6 +70,7 @@ profile_photo
     top: 20px;
     z-index: 999;
 }
+
 .navbar-brand,
 .nav-item {
     cursor: pointer;
@@ -123,6 +126,7 @@ profile_photo
         flex-grow: 0;
         width: 100%;
         margin-bottom: auto;
+        flex-basis: auto;
     }
     #sideNav .navbar-collapse .navbar-nav {
         flex-direction: column;
