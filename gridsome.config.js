@@ -59,5 +59,11 @@ module.exports = {
         publicPath: `/admin`
       }
     },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'G-KLLXD1HRV6'
+      }
+    }
   ]
 }
