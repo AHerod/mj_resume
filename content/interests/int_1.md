@@ -1,6 +1,18 @@
 ---
-interest: Filmy i fotografia
-details: filmografia S.Kubricka, dzieła E.Hartwiga
-text: Lorem ipsum passion ipsum lorem ipsum passion ipsum ipsumipsum passion ipsum lorem ipsum passion passion ipsum ipsum ipsum
+interest: "Kino "
+details: Kinomanka bez ulubionego reżysera
+text: >-
+  Odkąd pamiętam, pochłaniałam programy telewizyjne, seriale i nowinki ze świata
+  kina.
+
+
+  Od komercyjnych filmów, wolę te ambitne. Od sali kinowej, własny pokój. Nie znaczy to, że nigdy nie chodzę do centrów kinowych jak DCF, czy nie oglądam popularnych hitów. 
+
+
+  Najlepiej zekranizowana trylogia to według mnie dzieło P.Jacksona - Władca Pierścieni, czyli film, który został zrealizowany z budżetem ponad 270 mln $ łącznie! Historia przyjażni i odwagi, która porwie niejednego sceptyka fantastyki. Zdecydowanie jest to jedna z moich ulubionych historii. \
+
+  Z drugiej strony uwielbiam niskobudżetowe produkcje, takie jak ostatnie filmy G. Hákonarsona - Barany. Islandzka opowieść, czy Daleko od Reykjavíku. \
+
+  Nie mam ulubionego reżysera - żaden nie porwał mnie całością swojej twórczości. Inna sprawa jest z aktorami.. O filmach z M. Streep, J. Moore, C. Eastwood, M. Freemanem, czy A. Hopkinsem mogłabym opowiadać godzinami..
 icon: photo-video
 ---
