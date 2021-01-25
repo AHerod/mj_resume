@@ -15,7 +15,7 @@ experience:
       - Monitorowanie trendów rynkowych w zakresie marketingu i analiza działań
         marketingowych.
     date_from: Czerwiec 2019
-    date_to: Obecnie
+    date_to: Styczeń 2021
   - job_title: Młodszy Specjalista ds. marketingu
     company: AGENCJA MARKETINGOWA XO MEDIA, WROCŁAW
     duties:
@@ -55,11 +55,11 @@ experience:
     company: Call Center Dynamic Sales, Wrocław
     duties:
       - Sprawowanie opieki merytorycznej nad konsultantami pracującymi w CC;
-      - Nadzorowanie grafików i pracy konsultantów zespołu sprzedażowego liczącego
-        40-50 osób;
+      - Nadzorowanie grafików i pracy konsultantów zespołu sprzedażowego
+        liczącego 40-50 osób;
       - Przeprowadzanie coachingów i szkoleń dla konsultantów;
-      - Przeprowadzanie odsłuchów I monitoringów rozmów konsultantów, czuwanie nad
-        jakością rozmów z Klientami;
+      - Przeprowadzanie odsłuchów I monitoringów rozmów konsultantów, czuwanie
+        nad jakością rozmów z Klientami;
       - Tworzenie raportów pracy;
       - Rozwiązywanie reklamacji I zwrotów;
       - Przeprowadzanie rekrutacji kandydatów do pracy w call center.
