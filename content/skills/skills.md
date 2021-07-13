@@ -5,8 +5,8 @@ main_skills:
   - Organizacja eventów
   - Copywriting
   - Komunikacja wizerunkowa
-  - Strategia marketingowa
   - Marketing Automation
+  - Strategia marketingowa
 skills:
   - Facebook Ads
   - WordPress
