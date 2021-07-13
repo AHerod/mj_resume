@@ -10,8 +10,8 @@ education:
     degree: Magister
     date_from: październik 2016
     date_to: czerwiec 2018
-  - university: politechnika wrocławska
-    major: zarządzanie przedsiębiorstwem
+  - university: Politechnika Wrocławska
+    major: Zarządzanie Przedsiębiorstwem
     degree: Magister
     date_from: Październik 2013
     date_to: czerwiec 2016
