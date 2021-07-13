@@ -74,4 +74,34 @@ experience:
       - Udzielanie pomocy w problemach technicznych.
     date_from: Marzec 2015
     date_to: Kwiecień 2016
+  - job_title: Specjalista ds. Wolontariatu i marketingu
+    company: Fundacja Wrocławskie Hospicjum dla Dzieci
+    date_from: Luty 2021
+    date_to: Kwiecień 2021
+    duties:
+      - Wysyłka mailingu;
+      - Planowanie i koordynowanie prac agencji reklamowej dot. reklamy w Google
+        Ads;
+      - Nadzorowanie prac nad przebudową strony www;
+      - "Koordynowanie Wolontariatu akcyjnego "
+      - Copywriting;
+      - Organizacja akcji promocyjnych m.in Kup Pani Książkę w KNH.
+  - job_title: Specjalista ds. PR i marketingu
+    company: Fundacja Wrocławskie Hospicjum dla Dzieci
+    date_from: Kwiecień 2021
+    date_to: Aktualnie
+    duties:
+      - Prowadzenie SM (Facebook, Instagram, Linkedin);
+      - Opracowywanie działań PR oraz strategii promocyjnej mające na celu
+        zwiększenie świadomości marki i problemu społecznego;
+      - "Planowanie i prowadzenie kampanii, w oparciu o wybrane kanały i
+        narzędzia - kampania 1%, kampania promocyjna:      Facebook Ads, E-mail,
+        Influencer Marketing;"
+      - Copywriting;
+      - Współtworzenie i edycja strony w CMS WordPress;
+      - Współpraca z podwykonawcami materiałów BTL i ATL;
+      - Tworzenie materiałów wewnętrznych (newslettery, prezentacje itp.) we
+        współpracy z grafikiem;
+      - Monitorowanie trendów rynkowych w zakresie marketingu i analiza
+        działań marketingowych.
 ---
