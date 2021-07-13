@@ -94,14 +94,14 @@ experience:
       - Prowadzenie SM (Facebook, Instagram, Linkedin);
       - Opracowywanie działań PR oraz strategii promocyjnej mające na celu
         zwiększenie świadomości marki i problemu społecznego;
-      - "Planowanie i prowadzenie kampanii, w oparciu o wybrane kanały i
-        narzędzia - kampania 1%, kampania promocyjna:      Facebook Ads, E-mail,
-        Influencer Marketing;"
-      - Copywriting;
-      - Współtworzenie i edycja strony w CMS WordPress;
-      - Współpraca z podwykonawcami materiałów BTL i ATL;
       - Tworzenie materiałów wewnętrznych (newslettery, prezentacje itp.) we
         współpracy z grafikiem;
+      - "Planowanie i prowadzenie kampanii, w oparciu o wybrane kanały i
+        narzędzia - kampania 1%, kampania promocyjna: Facebook Ads, E-mail,
+        Influencer Marketing;"
+      - Współtworzenie i edycja strony w CMS WordPress;
+      - Współpraca z podwykonawcami materiałów BTL i ATL;
+      - Copywriting;
       - Monitorowanie trendów rynkowych w zakresie marketingu i analiza
         działań marketingowych.
 ---
