@@ -6,6 +6,7 @@ main_skills:
   - Copywriting
   - Komunikacja wizerunkowa
   - Strategia marketingowa
+  - Marketing Automation
 skills:
   - Facebook Ads
   - WordPress
