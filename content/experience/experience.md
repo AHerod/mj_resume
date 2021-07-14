@@ -1,5 +1,23 @@
 ---
 experience:
+  - job_title: Specjalista ds. PR i marketingu
+    company: Fundacja Wrocławskie Hospicjum dla Dzieci
+    date_from: Kwiecień 2021
+    date_to: Aktualnie
+    duties:
+      - Prowadzenie SM (Facebook, Instagram, Linkedin);
+      - Opracowywanie działań PR oraz strategii promocyjnej mające na celu
+        zwiększenie świadomości marki i problemu społecznego;
+      - Tworzenie materiałów wewnętrznych (newslettery, prezentacje itp.) we
+        współpracy z grafikiem;
+      - "Planowanie i prowadzenie kampanii, w oparciu o wybrane kanały i
+        narzędzia - kampania 1%, kampania promocyjna: Facebook Ads, E-mail,
+        Influencer Marketing;"
+      - Współtworzenie i edycja strony w CMS WordPress;
+      - Współpraca z podwykonawcami materiałów BTL i ATL;
+      - Copywriting;
+      - Monitorowanie trendów rynkowych w zakresie marketingu i analiza
+        działań marketingowych.
   - job_title: Specjalista ds. marketingu
     company: AGENCJA MARKETINGOWA XO MEDIA, WROCŁAW
     duties:
@@ -86,22 +104,4 @@ experience:
       - "Koordynowanie Wolontariatu akcyjnego "
       - Copywriting;
       - Organizacja akcji promocyjnych m.in Kup Pani Książkę w KNH.
-  - job_title: Specjalista ds. PR i marketingu
-    company: Fundacja Wrocławskie Hospicjum dla Dzieci
-    date_from: Kwiecień 2021
-    date_to: Aktualnie
-    duties:
-      - Prowadzenie SM (Facebook, Instagram, Linkedin);
-      - Opracowywanie działań PR oraz strategii promocyjnej mające na celu
-        zwiększenie świadomości marki i problemu społecznego;
-      - Tworzenie materiałów wewnętrznych (newslettery, prezentacje itp.) we
-        współpracy z grafikiem;
-      - "Planowanie i prowadzenie kampanii, w oparciu o wybrane kanały i
-        narzędzia - kampania 1%, kampania promocyjna: Facebook Ads, E-mail,
-        Influencer Marketing;"
-      - Współtworzenie i edycja strony w CMS WordPress;
-      - Współpraca z podwykonawcami materiałów BTL i ATL;
-      - Copywriting;
-      - Monitorowanie trendów rynkowych w zakresie marketingu i analiza
-        działań marketingowych.
 ---
