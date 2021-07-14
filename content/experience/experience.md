@@ -18,6 +18,18 @@ experience:
       - Copywriting;
       - Monitorowanie trendów rynkowych w zakresie marketingu i analiza
         działań marketingowych.
+  - job_title: Specjalista ds. Wolontariatu i marketingu
+    company: Fundacja Wrocławskie Hospicjum dla Dzieci
+    date_from: Luty 2021
+    date_to: Kwiecień 2021
+    duties:
+      - Wysyłka mailingu;
+      - Planowanie i koordynowanie prac agencji reklamowej dot. reklamy w Google
+        Ads;
+      - Nadzorowanie prac nad przebudową strony www;
+      - "Koordynowanie Wolontariatu akcyjnego "
+      - Copywriting;
+      - Organizacja akcji promocyjnych m.in Kup Pani Książkę w KNH.
   - job_title: Specjalista ds. marketingu
     company: AGENCJA MARKETINGOWA XO MEDIA, WROCŁAW
     duties:
@@ -92,16 +104,4 @@ experience:
       - Udzielanie pomocy w problemach technicznych.
     date_from: Marzec 2015
     date_to: Kwiecień 2016
-  - job_title: Specjalista ds. Wolontariatu i marketingu
-    company: Fundacja Wrocławskie Hospicjum dla Dzieci
-    date_from: Luty 2021
-    date_to: Kwiecień 2021
-    duties:
-      - Wysyłka mailingu;
-      - Planowanie i koordynowanie prac agencji reklamowej dot. reklamy w Google
-        Ads;
-      - Nadzorowanie prac nad przebudową strony www;
-      - "Koordynowanie Wolontariatu akcyjnego "
-      - Copywriting;
-      - Organizacja akcji promocyjnych m.in Kup Pani Książkę w KNH.
 ---
