@@ -44,7 +44,7 @@ experience:
         współpracy z grafikami;
       - Monitorowanie trendów rynkowych w zakresie marketingu i analiza działań
         marketingowych.
-    date_from: Czerwiec 2019
+    date_from: Czerwiec 2020
     date_to: Styczeń 2021
   - job_title: Młodszy Specjalista ds. marketingu
     company: AGENCJA MARKETINGOWA XO MEDIA, WROCŁAW
