@@ -9,6 +9,7 @@ main_skills:
   - Strategia marketingowa
 skills:
   - Facebook Ads
+  - Google Ads
   - WordPress
   - Instagram
   - Copywriting
