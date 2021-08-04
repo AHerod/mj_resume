@@ -1,5 +1,11 @@
 ---
 education:
+  - major: GA - budowa i prowadzenie kampanii w wyszukiwarce oraz Display,
+      Remarketing, Youtube, Gmail
+    university: Certyfikat i udział w szkoleniu z Google Ads
+    date_from: lipiec 2021
+    degree: " "
+    date_to: " "
   - university: Wyższa Szkoła Bankowa we Wrocławiu
     major: e-marketing w biznesie
     degree: Studia Podyplomowe
