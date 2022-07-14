@@ -26,4 +26,19 @@ education:
     date_from: kwiecień 2022
     date_to: kwiecień 2023
     degree: Certyfikat
+  - major: Certyfikat Google Ads z reklamy w sieci reklamowej
+    date_from: kwiecień 2022
+    date_to: kwiecień 2023
+    degree: Certyfikat
+    university: Skillshop - Google
+  - university: Skillshop - Google
+    date_from: kwiecień 2022
+    date_to: kwiecień 2023
+    major: Certyfikat z reklamy produktowej
+    degree: Certyfikat
+  - university: Skillshop - Google
+    date_from: kwiecień 2022
+    date_to: kwiecień 2023
+    major: Certyfikat Google Ads z reklamy wideo
+    degree: Certyfikat
 ---
