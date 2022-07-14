@@ -21,4 +21,9 @@ education:
     degree: Magister
     date_from: Październik 2013
     date_to: czerwiec 2016
+  - university: Skillshop - Google
+    major: Certyfikat Google Ads z reklamy w sieci wyszukiwania
+    date_from: kwiecień 2022
+    date_to: kwiecień 2023
+    degree: Certyfikat
 ---
