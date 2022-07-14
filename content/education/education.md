@@ -5,7 +5,7 @@ education:
       Remarketing, Youtube, Gmail
     date_from: lipiec 2021
     degree: Certyfikat
-    date_to: " "
+    date_to: Na czas nieokreślony
   - university: Wyższa Szkoła Bankowa we Wrocławiu
     major: e-marketing w biznesie
     degree: Studia Podyplomowe
