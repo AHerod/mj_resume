@@ -22,7 +22,7 @@ experience:
   - job_title: Specjalista ds. PR i marketingu
     company: Fundacja Wrocławskie Hospicjum dla Dzieci
     date_from: Kwiecień 2021
-    date_to: Aktualnie
+    date_to: Aktualnie 1/4 etatu
     duties:
       - Prowadzenie SM (Facebook, Instagram, Linkedin);
       - Opracowywanie działań PR oraz strategii promocyjnej mające na celu
