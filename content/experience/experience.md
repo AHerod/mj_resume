@@ -1,9 +1,24 @@
 ---
 experience:
-  - job_title: Burritko
-    company: Śpiąca Jońca Szajba & Spółka z ZOO
-    date_from: 22.12.1992
+  - job_title: Junior PPC Specialist
+    company: "Orange Juice - Agencja SEM "
+    date_from: Październik 2021
     date_to: obecnie
+    duties:
+      - "Praca na systemach: Google Ads, Bing Ads, Allegro Ads, Facebook Ads i
+        Linkedin Ads;"
+      - Planowanie, realizacja i optymalizacja działań z zakresu reklamy płatnej
+        w oparciu o KPI;
+      - Przeprowadzenie testów A/B w narzędziu Google Optimize
+      - "Praca w oparciu m.in o narzędzia: Data Studio, Google Analytics, GTM,
+        GMC;"
+      - Samodzielne prowadzenie kampanii i rozwój projektów;
+      - Przygotowywanie raportów w data studio, analiza statystyk i wyciąganie
+        wniosków;
+      - Optymalizacja budżetów kampanii proporcjonalnie do ich efektywności i
+        estymowanego zwrotu z inwestycji;
+      - Tworzenie tekstów reklamowych i rozszerzeń oraz list słów kluczowych do
+        kampanii w Google Ads.
   - job_title: Specjalista ds. PR i marketingu
     company: Fundacja Wrocławskie Hospicjum dla Dzieci
     date_from: Kwiecień 2021
