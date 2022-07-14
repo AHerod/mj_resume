@@ -1,32 +1,32 @@
 ---
 main_skills:
   - E-marketing
+  - SEM
   - Social Media
-  - Organizacja eventów
   - Copywriting
-  - Komunikacja wizerunkowa
-  - Marketing Automation
   - Strategia marketingowa
+  - Marketing Automation
 skills:
-  - Facebook Ads
   - Google Ads
-  - WordPress
-  - Instagram
-  - Copywriting
+  - Facebook Ads
   - Google Analytics
-  - Brand24
-  - Canva
-  - Sotrender
+  - GTM
+  - Linkedin Ads
+  - Bing Ads
+  - Allegro Ads
   - Hotjar
+  - WordPress
+  - Copywriting
+  - Brand24
+  - Sotrender
+  - Instagram
+  - Canva
   - Excel
   - FreshMail
   - Trello
   - CRM
   - Redmine
-  - Photoshop podstawy
-  - Język korzyści
   - Umiejętność pracy w zespole
-  - Wystąpienia publiczne
   - Zarządzanie zespołem sprzedaży
-  - Prowadzenie szkoleń
+  - Komunikacja wizerunkowa
 ---
