@@ -1,7 +1,7 @@
 ---
 main_skills:
   - E-marketing
-  - Search Engine Marketing - SEM
+  - SEM - Search Engine Marketing
   - Social Media
   - Copywriting
   - Strategia marketingowa
