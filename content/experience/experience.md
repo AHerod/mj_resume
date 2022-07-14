@@ -1,5 +1,9 @@
 ---
 experience:
+  - job_title: Burritko
+    company: Śpiąca Jońca Szajba & Spółka z ZOO
+    date_from: 22.12.1992
+    date_to: obecnie
   - job_title: Specjalista ds. PR i marketingu
     company: Fundacja Wrocławskie Hospicjum dla Dzieci
     date_from: Kwiecień 2021
