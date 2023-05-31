@@ -3,8 +3,8 @@ profile_photo: ../../static/uploads/1662620840660.jpeg
 phone: "883 137 118 "
 email: martyna.k.jonca@gmail.com
 bio: W marketingu chodzę swoimi ścieżkami - jestem zwolenniczką poznawania
-  nowych rzeczy i narzędzi, dzięki którym cały czas rozwijam swoją wiedzę. W
-  pracy skupiam się na kreatywnych rozwiązaniach, które generują korzyści dla
-  moich klientów.
+  nowych narzędzi, dzięki którym cały czas rozwijam swoją wiedzę. W pracy
+  skupiam się na kreatywnych rozwiązaniach, które generują korzyści dla moich
+  klientów.
 linkedin_url: www.linkedin.com/in/martyna-jońca
 ---
