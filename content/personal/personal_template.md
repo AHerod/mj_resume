@@ -1,5 +1,5 @@
 ---
-profile_photo: ../../static/uploads/profile.webp
+profile_photo: ../../static/uploads/1662620840660.jpeg
 phone: "883 137 118 "
 email: martyna.k.jonca@gmail.com
 bio: W marketingu chodzę swoimi ścieżkami - jestem zwolenniczką poznawania
