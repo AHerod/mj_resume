@@ -19,8 +19,6 @@ skills:
   - Copywriting
   - Brand24
   - Sotrender
-  - Instagram
-  - Canva
   - Excel
   - FreshMail
   - Trello
