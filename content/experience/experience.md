@@ -1,5 +1,17 @@
 ---
 experience:
+  - job_title: " SEM Associate"
+    company: DevaGroup
+    date_from: Wrzesień 2022
+    date_to: Obecnie
+    duties:
+      - Tworzenie i optymalizowanie płatnych kampanii reklamowych, w
+        szczególności na platformach Google Ads, Facebook Ads, Linkedin Ads i
+        Allegro Ads;
+      - Współpraca z innymi działami w zakresie prowadzonych działań;
+      - Praca bezpośrednio z klientem – relacje, edukacja i prowadzenie działań;
+      - "Praca w narzędziach: Google Tag Manager, Google Analytics, Google
+        Merchant Center;"
   - job_title: Junior PPC Specialist
     company: "Orange Juice - Agencja SEM "
     date_from: Październik 2021
@@ -123,16 +135,4 @@ experience:
       - Udzielanie pomocy w problemach technicznych.
     date_from: Marzec 2015
     date_to: Kwiecień 2016
-  - job_title: " SEM Associate"
-    company: DevaGroup
-    date_from: Wrzesień 2022
-    date_to: Obecnie
-    duties:
-      - Tworzenie i optymalizowanie płatnych kampanii reklamowych, w
-        szczególności na platformach Google Ads, Facebook Ads, Linkedin Ads i
-        Allegro Ads;
-      - Współpraca z innymi działami w zakresie prowadzonych działań;
-      - Praca bezpośrednio z klientem – relacje, edukacja i prowadzenie działań;
-      - "Praca w narzędziach: Google Tag Manager, Google Analytics, Google
-        Merchant Center;"
 ---
