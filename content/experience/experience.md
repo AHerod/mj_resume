@@ -1,9 +1,19 @@
 ---
 experience:
+  - duties:
+      - Samodzielne tworzenie i optymalizowanie płatnych kampanii reklamowych na
+        platformach Google Ads i Facebook Ads - w oparciu o KPI;
+      - Współpraca z działem SEO w zakresie prowadzonych działań;
+      - "Praca w narzędziach: Google Tag Manager, Google Analytics 4, Power Bi;"
+      - Dzielenie się wiedzą ze współpracownikami
+    company: Oferteo
+    date_from: Wrzesień 2023
+    date_to: obecnie
+    job_title: SEM Specialist
   - job_title: " SEM Associate"
     company: DevaGroup
     date_from: Wrzesień 2022
-    date_to: Obecnie
+    date_to: Wrzesień 2023
     duties:
       - Tworzenie i optymalizowanie płatnych kampanii reklamowych, w
         szczególności na platformach Google Ads, Facebook Ads, Linkedin Ads i
@@ -36,6 +46,7 @@ experience:
     date_from: Kwiecień 2021
     date_to: Aktualnie 1/4 etatu
     duties:
+      - Prowadzenie kampanii Facebook Ads i Google Ads;
       - Prowadzenie SM (Facebook, Instagram, Linkedin);
       - Opracowywanie działań PR oraz strategii promocyjnej mające na celu
         zwiększenie świadomości marki i problemu społecznego;
