@@ -7,7 +7,7 @@ bio: W marketingu, niczym kot - chodzę swoimi ścieżkami, odkrywając sposoby 
   rozwojowi, a nadążanie za aktualizacją narzędzi analitycznych i algorytmów
   Google daje ogromną przewagę nad konkurencją. Znam się zatem z nowinkami w
   branży i podejmuję wyzwania, dzięki którym cały czas rozwijam swoją wiedzę i
-  oświadczenie. W pracy skupiam się na kreatywnych rozwiązaniach, które generują
-  korzyści dla moich klientów.
+  doświadczenie. W pracy skupiam się na kreatywnych rozwiązaniach, które
+  generują korzyści dla moich klientów.
 linkedin_url: www.linkedin.com/in/martyna-jońca
 ---
