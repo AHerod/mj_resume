@@ -1,5 +1,19 @@
 ---
 experience:
+  - job_title: SEM Specialist
+    duties:
+      - Praca w systemie Google Ads,  Planowanie, realizacja i optymalizacja
+        działań z zakresu reklamy płatnej w oparciu o KPI;
+      - "Praca w oparciu m.in o narzędzia: Data Studio, Google Analytics 4, GTM,
+        GMC;"
+      - Samodzielne prowadzenie kampanii i rozwój projektów; Przygotowywanie
+        raportów, analiza statystyk i wyciąganie wniosków;
+      - Optymalizacja budżetów kampanii proporcjonalnie do ich efektywności i
+        estymowanego zwrotu z inwestycji;
+      - "Bieżący kontakt z Klientami "
+    date_from: Marzec 2024
+    date_to: obecnie
+    company: Business Factory
   - duties:
       - Samodzielne tworzenie i optymalizowanie płatnych kampanii reklamowych na
         platformach Google Ads i Facebook Ads - w oparciu o KPI;
@@ -8,7 +22,7 @@ experience:
       - Dzielenie się wiedzą ze współpracownikami
     company: Oferteo
     date_from: Wrzesień 2023
-    date_to: obecnie
+    date_to: Marzec 2024
     job_title: SEM Specialist
   - job_title: " SEM Associate"
     company: DevaGroup
