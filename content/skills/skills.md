@@ -9,6 +9,8 @@ main_skills:
   - Marketing Automation
   - Strategia marketingowa
   - Copywriting
+  - Konsultacje dot. strategii promocyjnych
+  - Audyty kont Google Ads i Meta Ads
 skills:
   - Google Ads
   - Meta Ads
