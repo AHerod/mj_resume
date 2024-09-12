@@ -12,7 +12,7 @@ experience:
         estymowanego zwrotu z inwestycji;
       - "Bieżący kontakt z Klientami "
     date_from: Marzec 2024
-    date_to: obecnie
+    date_to: Wrzesień - 2024
     company: Business Factory
   - duties:
       - Samodzielne tworzenie i optymalizowanie płatnych kampanii reklamowych na
@@ -160,4 +160,16 @@ experience:
       - Udzielanie pomocy w problemach technicznych.
     date_from: Marzec 2015
     date_to: Kwiecień 2016
+  - job_title: Freelancer - Google Ads, GTM, GA4
+    company: Martyna Jońca Digital Marketing Specialist
+    date_from: Marzec - 2024
+    date_to: Obecnie
+    duties:
+      - "Wspieram przedsiębiorców w osiąganiu wyników w kampaniach płatnych na
+        platformach Google Ads i Meta Ads. "
+      - Zajmuję się wdrożeniem analityki na podstawie narzędzie Google Analytics
+        4 orz Googl Tag Manager
+      - Pomagam sklepom w konfiguracji konta Google Merchant Center
+      - Pomagam firmom w ustaleniu strategii marketingowej i doprecyzowaniu
+        działań promocyjnych
 ---
