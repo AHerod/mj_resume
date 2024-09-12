@@ -1,11 +1,14 @@
 ---
 main_skills:
   - SEM
+  - Google Ads
+  - GA4
+  - GTM
+  - Meta Ads
   - E-marketing
-  - Social Media
-  - Copywriting
-  - Strategia marketingowa
   - Marketing Automation
+  - Strategia marketingowa
+  - Copywriting
 skills:
   - Google Ads
   - Facebook Ads
