@@ -11,7 +11,7 @@ main_skills:
   - Copywriting
 skills:
   - Google Ads
-  - Facebook Ads
+  - Meta Ads
   - Google Analytics
   - GTM
   - Linkedin Ads
@@ -28,6 +28,6 @@ skills:
   - CRM
   - Redmine
   - Umiejętność pracy w zespole
-  - Zarządzanie zespołem sprzedaży
+  - Zarządzanie zespołem
   - Komunikacja wizerunkowa
 ---
