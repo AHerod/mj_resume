@@ -2,7 +2,7 @@
 experience:
   - job_title: Freelancer - Google Ads, GTM, GA4
     company: Martyna Jońca Digital Marketing Specialist
-    date_from: Marzec - 2024
+    date_from: Luty - 2024
     date_to: Obecnie
     duties:
       - "Wspieram przedsiębiorców w osiąganiu wyników w kampaniach płatnych na
@@ -139,16 +139,6 @@ experience:
       - Sprawy organizacyjno - administracyjne.
     date_from: Sierpień 2018
     date_to: Marzec 2019
-  - job_title: Specjalista ds. planowania
-    company: Logintrade S.A. Wrocław
-    duties:
-      - Gromadzenie danych do przygotowania planu produkcji oprogramowania;
-      - Tworzenie planu produkcji oprogramowania;
-      - Przygotowywanie materiałów do omówienia na zebraniach technicznych;
-      - Nadzór nad terminowością wykonania zadań w planie produkcji;
-      - " Inne prace związane z produkcją i utrzymaniem platformy zakupowej"
-    date_from: Listopad 2017
-    date_to: Luty 2018
   - job_title: Sales Manager/Kierownik
     company: Call Center Dynamic Sales, Wrocław
     duties:
@@ -163,13 +153,4 @@ experience:
       - Przeprowadzanie rekrutacji kandydatów do pracy w call center.
     date_from: Kwiecień 2016
     date_to: Listopad 2017
-  - job_title: Doradca Sklepu Internetowego
-    company: Call Center Dynamic Sales, Wrocław
-    duties:
-      - Pozyskiwanie nowych klientów dla sieci;
-      - Obsługa Klientów biznesowych i indywidualnych;
-      - Budowanie i utrzymywanie pozytywnych relacji z Klientem;
-      - Udzielanie pomocy w problemach technicznych.
-    date_from: Marzec 2015
-    date_to: Kwiecień 2016
 ---
